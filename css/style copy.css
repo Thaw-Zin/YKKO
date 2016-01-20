@@ -1,0 +1,1825 @@
+body
+{
+	opacity:1;
+
+}
+div.container
+{
+	width:80%;
+}
+h1
+{
+	font-size:400% !important;
+	font-weight:600 !important;
+	color:#fff;
+}
+h2
+{
+font-size:220% !important;
+letter-spacing:2px;
+font-weight:bold;
+}
+p
+{
+line-height:2em;
+font-size:1em;
+}
+a:hover {text-decoration:none;}
+a:link {text-decoration: none}
+div.ipad-subcategores
+{
+	display:none;
+}
+
+div.page
+{
+	opacity:1;
+}
+img.logo
+{
+	float:left;
+}
+ .carousel-caption
+    {
+    	top:30%;
+    	text-align:left;
+    	left:1.5%;
+    	right:0%;
+    	width:80%;
+    	margin:0 auto !important;
+    }
+    .carousel-indicators
+    {
+    	top:50%;
+    	left:1.5%;
+    	right:0%;
+    	text-align:left;
+    	width:80%;
+    	margin:0 auto;
+    }
+    .carousel-fade .carousel-inner .item {
+  opacity:0.8;
+  /*-webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;*/
+   -webkit-transition: 0.6s;
+    transition: 0.6s;
+
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 1;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/****************** menu ***************/
+div.main-menu
+{
+	width:100% !important;
+	 /*background: -webkit-linear-gradient(rgba(123, 116, 97, 0.9), rgba(255, 255, 255, 0));
+	 background: -o-linear-gradient(rgba(123, 116, 97, 0.9), rgba(255, 255, 255, 0));
+	 background: -moz-linear-gradient(rgba(123, 116, 97, 0.9), rgba(255, 255, 255, 0));
+	 background: linear-gradient(rgba(123, 116, 97, 0.9), rgba(255, 255, 255, 0));*/
+	 background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+}
+div.menu
+{
+	opacity:1;
+	margin-top:1.5%;
+	padding-left:0;
+	padding-right:0;
+}
+div.menu ul
+{
+	padding:0;
+	margin:0;
+}
+div.menu ul li
+{
+	list-style-type:none;
+	padding-left:0;
+	padding-right:0;
+}
+li.menu-title
+{
+	margin-top:2em;
+	text-align:center;
+	margin-left:1%;
+}
+li.menu-title a
+{
+	padding:0.8em 1.5em 0.8em 1.5em;
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color:none;
+    border-radius:2em;
+    color:#fff;
+}
+
+li.menu-title a:hover
+{
+	background-color:#fef200;
+	border-radius:2em;
+	color:#1c4e31;
+	text-decoration:none;
+}
+li.menu-title a.active
+{
+	background-color:#fef200;
+	color:#1c4e31;
+}
+li.ip-contact
+{
+	text-align:right;
+}
+/*div.menu ul li a
+{
+	color:#1c4e31;
+}*/
+/***************    footer   ***************/
+
+div.footer
+{
+	/*padding:1.5em 0 1.5em 0;*/
+	font-size:0.8em;
+	color:#999999;
+	padding:1.9em 0 1em 0;
+}
+a.facebook
+{
+	text-align:center;
+	padding:0.8em 1em 0.8em 1em;
+	border-radius:2em;
+	color:#fff;
+	background-color:#1c4e31;
+}
+a.facebook:hover{
+	background-color:#fef200;
+	color:#1c4e31;
+	font-weight:500;
+}
+div.home-footer
+{
+	position:absolute; z-index:9999; top:90%; right:0; left:0; width:80%; margin:0 auto;
+}
+/******************** about us ************/
+div.about-container 
+{
+	padding-top:2em;
+	padding-bottom:2em;
+}
+p.video iframe
+{
+	border:solid 1px #fff;
+	border-radius:4px;
+}
+div.our-story
+{
+	padding-right:4em;
+}
+div.version-mission
+{
+	padding:0.5em 0 1em 0;
+	background-color:#efefef;
+}
+
+/******************* index *********************/
+
+div.home-part
+{
+	color:#fff;
+}
+div.sub-menu
+{
+
+}
+div.tlb-submenu
+{
+	position:absolute; z-index:9999; top:60%;
+}
+div.sub-menu ul
+{
+	display:inline;
+}
+div.sub-menu ul li
+{
+	list-style-type:none;
+	float:left;
+	width:20%;
+}
+div.sub-menu ul li a
+{
+	width:80%;
+	padding:5% 0 5% 0;
+	background-color:#fff;
+	text-align:center !important;
+	display:block;
+	border-radius:40px;
+	font-size:1.2em;
+	color:#1c4e31;
+	font-weight:500;
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+div.sub-menu ul li a:hover
+{
+	text-decoration:none;
+	background-color:#fef200;
+}
+/***************   menus   ****************/
+div.menus-bg
+{
+	background-image:url("../images/waiter.png");
+	background-position:top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+}
+div.menu-container
+{
+	margin-top:2em;
+}
+div.our-menu-title h2
+{
+	float:left;
+}
+div.our-menu-title p
+{
+	margin-top:1.9em;
+}
+p.tip
+{
+	text-align:right;
+}
+div.categories 
+{
+	background-color:rgba(255, 255, 255, 0.75);
+	padding:2em 1em 2em 1em;
+}
+div.categories table
+{
+	text-align:center !important;
+}
+div.categories table a
+{
+	color:#666666;
+	padding:0.8em 1.5em 0.8em 1.5em;
+	background-color:#efefef;
+	transition: all 0.3s;
+	border-radius:5em;
+}
+
+div.categories table a:hover
+{
+	background-color:#fff200;
+	color:#1c4e31;
+	text-decoration:none;
+}
+.main-sub-categories a.active
+{
+	background-color:#fff200 !important;
+}
+div.menus-item h3
+{
+	margin-top:5%;
+}
+div.menus-item img
+{
+	transition: all 0.5s;
+}
+img.blur-item
+{
+	opacity:0.6 !important;
+	transition: all 0.5s;
+	-webkit-filter: blur(0.08em);
+  -moz-filter: blur(0.08em);
+  -o-filter: blur(0.05em);
+  -ms-filter: blur(0.08em);
+  filter: blur(0.08em);
+}
+
+img.normal-item
+{
+	transition: all 0.5s;
+	opacity:1 !important;
+}
+
+div.menu-container div.menus-item img:hover
+{
+	opacity:1 !important;
+	transform: scale(1.1);
+	-webkit-filter: blur(0);
+  -moz-filter: blur(0);
+  -o-filter: blur(0);
+  -ms-filter: blur(0);
+  filter: blur(0);
+}
+div.menu-container div.menus-item img:hover + div.food-des
+{
+	opacity:1 !important;
+}
+
+/*
+div.menu-container:hover div.menus-item
+{
+	opacity:0.7;
+	transition: all 0.5s;
+	-webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+div.menu-container div.menus-item:hover
+{
+	opacity:1;
+	-webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+}*/
+div.menus-item-row
+{
+	margin:1em 0 4em 0;
+}
+div.menus-item p
+{
+	line-height:1.2em;
+	margin-bottom:0px !important; 
+	margin-top:0.5em;
+}
+p.alert-food
+{
+	width:70%;
+	text-align:right;
+}
+p.alert-food span
+{
+	background-color:#1c4e31; color:#f1e803; padding:0.2em 0.6em 0.2em 0.6em;
+	border-radius:1em;
+	font-weight:normal;
+	font-size:0.9em;
+	margin-bottom:0;
+}
+/***************************** location.html ********************/
+div.loacation-content
+{
+	background-color:rgba(0, 0, 0, 0.8) !important;
+} 
+div.locatin-part
+{
+	background-color:none;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+div.locatin-part:hover
+{
+	background-color:#ffffff;
+}
+div.locatin-part:hover div.location-box
+{
+	display:block;
+	opacity:1;
+} 
+
+div.loacation-content img
+{
+	opacity:0.2;
+}
+
+div.loacation-content h2
+{
+	position:absolute;
+	z-index:1;
+	color:#fff;
+	top:30%;
+	width:100%;
+	text-align:center;
+}
+
+div.location-box
+{
+	text-align:left;
+	padding:5% 12% 5% 12%;
+	width:100%;
+	height:auto;
+	position:absolute;
+	z-index:2;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+	opacity:0;
+	display:none;
+}
+div.location-box h2
+{
+	font-size:150% !important;
+	color:#1c4e31;
+	text-align:left;
+}
+h5.phone 
+{
+	margin-bottom:0;
+	margin-top:8%;
+}
+div.location-box p
+{
+	/*line-height:1.5em;*/
+	line-height:150%;
+	margin-top:0.5em;
+	font-size:1em;
+}
+div.view-share
+{
+	margin-top:5%;
+}
+
+ .mb-menu
+ {
+ 	display:none;
+ }
+ div.mb-categories
+ {
+ 	display:none;
+
+ }
+ /************************************** location 2 **********************/
+ div.ip-location
+ {
+ 	display:none;
+ }
+ #accordion
+ {
+	display:none;
+ }
+ div.location2
+ {
+ 	background-color:rgba(213, 233, 239, 0.8);
+ 	padding-left:10%;
+ 	padding-right:10%;
+ 	width:100%;
+ 	padding-bottom:1em;
+ }
+ div.location2-bg
+ {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:330px;   /* Height of the footer */
+ }
+
+ div.location-2-slider
+ {
+ 	text-align:left;
+ 	width:100%;
+ }
+ div.location-2-slide-container
+ {
+ 	width:90%;
+ 	margin:0 auto;
+ 	color:#1c4e31;
+ }
+div.location-2-slide-container h2
+{
+	font-size:180% !important;
+	font-weight:550;
+	margin-bottom:0.8em;
+	margin-top:-0.2em;
+}
+div.location-2-slide-container a
+{
+	color:#1c4e31;
+}
+div.location-2-slide-container a:hover
+{
+	color:#337ab7;
+	text-decoration:none;
+}
+ div.location-2-slide-container p
+ {
+ 	line-height:1.5em;
+ 	margin-bottom:1.1em;
+ }
+ .carousel-control.left, .carousel-control.right
+ {
+ 	background:none;
+ }
+ a.arrow-left
+ {
+ 	margin-top:8%;
+ 	text-align:center;
+ 	display:block;
+ 	width:5%;
+ }
+  a.arrow-right
+  {
+  	margin-top:8%;
+ 	text-align:center;
+ 	display:block;
+ 	width:5%;
+  }
+  div.address-box
+{
+  border-left:solid 3px #cccccc;
+  margin-top:2em;
+  padding-right:0;
+  padding-left:2%;
+}
+
+  /****************************** end location 2 ******************/
+
+  /******************************* Contact Us *****************/
+  div.contactus-bg
+  {
+  	background-image:url("../images/contact-bg.jpg");
+	 background-position:top center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 width:100%;
+  }
+  div.contact
+  {
+  	width:100%;
+  	background-color:#285237;
+  	opacity:0.9;
+  	padding-left:11.5%;
+  	padding-right:0%;
+  	color:#fff;
+  	margin-top:20em;
+  }
+  div.contact p
+  {
+  	line-height:1.5em;
+  	font-weight:200;
+  	font-size:1.1em;
+  }
+  #ContactMap
+		{
+			height:32em;
+			width: 100%; 
+			position:absolute;
+			z-index:-1;
+			top:0;
+			left:0;
+		}
+  div.contact-office
+  {
+  	padding:5em 0 5em 0;
+  }
+
+
+@media only screen 
+and (min-width : 1300px) 
+and (max-width : 1450px)
+{
+	p
+	{
+	line-height:2em;
+	font-size:1em;
+	}
+	/***************** menu.html ***********/
+	p.alert-food
+	{
+		width:90%;
+	}
+	/**************** location.html **********/
+	div.location-box
+	{
+		padding:2% 12% 5% 12%;
+
+	}
+	/**************** for location 2 **********/
+	 div.location2
+	 {
+	 	padding-bottom:2em;
+	 }
+	 /****************** contact.html *********/
+	 #ContactMap
+		{
+			height:28.2em;
+			width: 100%; 
+			position:absolute;
+			z-index:-1;
+			top:0;
+			left:0;
+		}
+	  div.contact-office
+	  {
+	  	padding:3.2em 0 3.2em 0;
+	  }
+}
+/******************************************* FOR LAPTOP DEVIDE RESOPNSIVE **********************************/
+@media only screen 
+and (min-width : 1024px) 
+and (max-width : 1300px)
+{
+	div.our-menu-title
+	{
+		width:100% !important;
+	}
+	div.main-sub-categories
+	{
+		width:100% !important;
+	}
+	div.categories table a
+	{
+		padding:0.5em 1em 0.5em 1em;
+		border-radius:5em;
+	}
+	p.alert-food
+	{
+		width:100%;
+	}
+	/**************** location.html ***********/
+	h2.hover-hide
+	{
+		font-size:2em !important;
+	}
+	div.location-box
+	{
+		padding:1% 8% 1% 8%;
+	}
+	div.location-box h2
+	{
+		font-size:140% !important;
+	}
+	h5.phone 
+	{
+		margin-top:4%;
+	}
+	div.location-box p
+	{
+		line-height:140%;
+	}
+	div.view-share
+	{
+		margin-top:1%;
+	}
+	/******************** location2.html ******************/
+	 div.location2-bg
+	 {
+	 	height:300px;
+	 }
+	div.location2
+	{
+		padding-top:1px;
+		padding-bottom:0.5em;
+	}
+	div.address-box
+	{
+		margin-top:1.5em !important;
+	}
+	div.location-2-slide-container h2
+	 {
+	 	font-size:150% !important;
+	 }
+	 
+}
+/************************************** FOR IP DEVICE RESPONSIVE ********************************/
+@media only screen 
+and (min-width : 992px) 
+and (max-width : 1024px)
+{
+	h1
+	{
+		font-size:300% !important;
+	}
+	div.menu
+	{
+		width:100% !important;
+		margin-left:1em;
+	}
+	img.logo
+	{
+		width:5.5em;
+		height:auto;
+	}
+	div.main-footer
+	{
+		width:95%;
+	}
+	div.footer
+	{
+		
+	}
+	div.our-menu-title
+	{
+		width:100% !important;
+	}
+	div.main-sub-categories
+	{
+		width:100% !important;
+	}
+	div.categories table a
+	{
+		padding:0.5em 1em 0.5em 1em;
+		border-radius:5em;
+	}
+	div.menu-container
+	{
+		width:100%;
+	}
+	div.sub-menu ul li
+	{
+		width:30%;
+	}
+	div.sub-menu ul li a
+	{
+		width:80%;
+		padding:5% 0 5% 0;
+		background-color:#fff;
+		text-align:center !important;
+		display:block;
+		border-radius:40px;
+		font-size:1.2em;
+		color:#1c4e31;
+		font-weight:500;
+	}
+
+	/************************ for about us ***************/
+	div.about-container
+	{
+		width:95%;
+	}
+	div.version-mission div.container
+	{
+		width:95%;
+	}
+	/*********************location.html****************/
+	h2.hover-hide
+	{
+		font-size:1.6em !important;
+	}
+	div.location-box
+	{
+		padding:1% 2% 1% 4% !important;
+
+	}
+	div.loacation-content img
+	{
+		width:2.6em;
+	}
+	div.location-box h2
+	{
+		font-size:120% !important;
+		margin-top:0.8em !important;
+	}
+	h5.phone 
+	{
+		margin-top:1%;
+	}
+	div.location-box p
+	{
+		line-height:110%;
+		font-size:90% !important;
+	}
+	div.view-share
+	{
+		margin-top:0.5%;
+	}
+	/************************ for location 2 **************/
+
+	div.location2
+	 {
+	 	padding-left:0.2%;
+	 	padding-right:0.2%;
+	 }
+	 .carousel-control.left
+	 {
+	 	text-align:left;
+	 }
+	  .carousel-control.right
+	  {
+	  	text-align:right;
+	  }
+	 div.location-2-slide-container
+	 {
+	 	width:95%;
+	 }
+	 div.location-2-slide-container h2
+	 {
+	 	font-size:150% !important;
+	 }
+	 div.location-2-slide-container p
+	 {
+	 	font-size:0.98em;
+	 }
+	 /************************** for contact us*****************/
+	 div.contact
+	 {
+	 	padding-left:5%;
+	 }
+	div.contact p
+	  {
+	  	font-size:1em;
+	  }
+	 div.contact-office
+  	{
+  		padding:2em 0 2em 0;
+  	}
+	 #ContactMap
+	{
+		height:23.6em !important;
+	}
+}
+/*************************************** FOR IPAD VERTICAL DEVICE RESPONSIVE *********************************/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 992px)
+{
+	li.menu-title a
+	{
+		padding:0.6em 1.1em 0.6em 1.1em !important;
+	}
+	img.logo
+	{
+		width:5.5em;
+		height:auto;
+	}
+	li.menu-title
+	{
+		margin-left:0.2em;
+	}
+	li.ip-contact
+	{
+		text-align:right;
+		margin-left:1.9em !important;
+	}
+	h1
+	{
+		font-size:300% !important;
+	}
+	h2
+	{
+		font-size:200% !important;
+	}
+	div.menu
+	{
+		width:100%;
+	}
+	div.main-footer
+	{
+		width:95%;
+	}
+	div.our-menu-title
+	{
+		width:100% !important;
+	}
+	div.main-sub-categories
+	{
+		width:100% !important;
+	}
+	div.categories table a
+	{
+		padding:0.2em 0.4em 0.2em 0.4em;
+		/*padding:0;*/
+		border-radius:5em;
+		/*border:solid 1px red;*/
+		margin:0;
+		display:block;
+		width:95%;
+	}
+	
+	div.menu-container
+	{
+		width:100%;
+	}
+	div.tlb-submenu
+	{
+		width:80%;
+	}
+	div.sub-menu ul li
+	{
+		width:20%;
+		margin-right:1em;
+	}
+	div.sub-menu ul li a
+	{
+		width:100%;
+		padding:5% 0 5% 0;
+	}
+	/***************** index ***************/
+	div.carousel-caption, .carousel-indicators
+	{
+		width:95%;
+		padding-left:0;
+	}
+	div.tlb-submenu
+	{
+		width:95%;
+		/*margin-left:0px !important;
+		text-align:center;*/
+		left:1.5%;
+	}
+	span.icon-prev
+	{
+		margin-left:-1.8em !important;
+		margin-top:-1em !important;
+	}
+	span.icon-next
+	{
+		margin-right:-1.8em !important;
+		margin-top:-1em !important;
+	}
+	
+	/*****************  for menu ********************/
+	div.our-menu-title h2
+	{
+		float:none;
+		display:block;
+	}
+	div.our-menu-title p
+	{
+		margin-top:-0.5%;		
+		text-align:left;
+	}
+	p.tip
+	{
+		text-align:right !important;
+		margin-top:-5% !important;
+	}
+	.wrapper-dropdown-3
+	{
+		display:none;
+	}
+	div.main-sub-categories table
+	{
+		display:none;
+	}
+	div.categories 
+	{
+		padding:0.2em 0.5em 0.2em 0.5em;
+	}
+	div.clear
+	{
+		clear:both;
+		float:none;
+	}
+	div.ipad-subcategores
+	{
+		display:block;
+		margin-left:1%;
+		margin-right:1%;
+	}
+	div.ipad-subcategores div
+	{
+		float:left;
+		width:20%;
+		padding-bottom:0.1em;
+		padding-top:1em;
+	}
+	div.ipad-subcategores div a
+	{
+		color:#666666;
+		margin-top:1em;
+		display:block;
+		background-color:#efefef;
+		transition: all 0.3s;
+		border-radius:4em;
+		text-align:center;
+		width:98%;
+		padding:0.5em 0.5em 0.5em 0.5em;
+		margin:0 auto;
+	}
+	div.ipad-subcategores div a:hover
+	{
+		text-decoration:none;
+		background-color:#fff200;
+		color:#1c4e31;
+	}
+	div.our-menu-title 
+	{
+		width:98% !important;
+	}
+	div.menu-container
+	{
+		width:98%;
+		margin-top:0;
+	}
+	div.menus-item-row 
+	{
+		margin-bottom:0%;
+	}
+	div.menus-item h3
+	{
+		margin-top:0%;
+		font-size:140%;
+	}
+	div.menus-item-row div.menus-item
+	{
+		padding-left:8%;
+		margin-bottom:1em;
+	}
+	/************************ for about us ***************/
+	div.about-container
+	{
+		width:95%;
+	}
+	div.version-mission div.container
+	{
+		width:95%;
+	}
+	iframe
+	{
+		height:500px;
+	}
+	/************************ for location 2 **************/
+	div.large-location
+	{
+		display:none;
+	}
+	div.ip-location
+	 {
+	 	display:block;
+	 }
+	div.location2
+	 {
+	 	padding-left:1%;
+	 	padding-right:1%;
+	 }
+	 div.location-2-slide-container h2
+	 {
+	 	font-size:160% !important;
+	 }
+	 div.location-2-slide-container
+	 {
+	 	width:95%;
+	 }
+	 div.location-2-slide-container p
+	 {
+	 	font-size:1em;
+	 }
+	  div.address-box
+	 {
+	 	 padding-left:3%;
+	 }
+	 a.arrow-left
+	 {
+	 	margin-top:10%;
+	 }
+	 a.arrow-left img
+	 {
+	 	margin-left:-1em;
+	 }
+	  a.arrow-right
+	  {
+	  	margin-top:10%;
+	  }
+	  a.arrow-right img
+	  {
+	  	margin-right:-1em;
+	  }
+	/*************** for contact us ******************/
+	div.contact
+	 {
+	 	padding-left:0;
+	 	padding-right:0;
+	 }
+	div.contact p
+	  {
+	  	font-size:1em;
+	  }
+	 div.contact-office
+  	{
+  		padding:2em 0 2em 3em;
+  	}
+	 #ContactMap
+	{
+		height:23.6em !important;
+		position:relative !important;
+		width:100%;
+		padding:0;
+		margin:0;
+	}
+
+}
+/************************************************ FOR TABLET DEVICE RESPONSIVE *********************************/
+@media only screen 
+and (min-width : 480px) 
+and (max-width : 768px)
+{
+	h1
+	{
+		font-size:280% !important;
+	}
+	p
+	{
+		line-height:1.5em;
+	}
+	div.menu-small
+	{
+		width:100%;
+		padding-left:7.5%;
+		padding-right:7.5%;
+	}
+	.navbar
+	{
+		border:0px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{ border:0px;}
+	.navbar-default .navbar-toggle .icon-bar
+	{
+		background-color:#fff !important;
+	}
+	div.menu
+	{
+		display:none;
+	}
+	.navbar-toggle
+	 {
+	 	margin-top:13px !important;
+	 	background-color:#1c4e31 !important;
+	 	border:0px;
+	 	color:#fff;
+	 }
+	.mb-menu
+	{
+		display:block;
+		position:absolute;
+		z-index:99999;
+	 background-color:rgba(255,255,255,0.8);
+	 padding-bottom:2%;
+	}
+	.mb-menu ul li a
+	{
+	padding:0.8em 1.5em 0.8em 1.5em;
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color:none;
+    border-radius:2em;
+    background:none !important;
+    width:70%;
+    margin:0 auto;
+    text-align:left;
+    margin-bottom:0.5em;
+    padding-left:25%;
+    color:#1c4e31 !important;
+	}
+	.mb-menu ul li a.active
+	{
+		/*background-color:#fef200 !important;*/
+		font-weight:bold;
+		color:#1c4e31 !important;
+	}
+	.mb-menu ul li a:hover
+	{
+	/*background-color:#fef200 !important;*/
+	font-weight:bold;
+	border-radius:2em;
+	color:#1c4e31 !important;
+	text-decoration:none;
+	}
+	div.main-footer
+	{
+		width:90%;
+	}
+	 .carousel-caption, .carousel-indicators
+    {
+    	width:85%;
+    }
+    /*.carousel-indicators
+    {
+    	top:50%;
+    	left:1.5%;
+    	right:0%;
+    	text-align:left;
+    	width:80%;
+    	margin:0 auto;
+    }*/
+	div.tlb-submenu
+	{
+		width:90%;
+		left:5.5% !important;
+	}
+	div.sub-menu ul
+	{
+		padding:0;
+		margin:0;
+	}
+	div.sub-menu ul li
+	{
+		width:33%;
+	}
+	div.sub-menu ul li a
+	{
+		font-size:1.1em;
+		width:95%;
+	}
+	/***************** aboutus.html ********/
+	div.about-container
+	{
+		width:90%;
+		padding-top:1em;
+		padding-bottom:1em;
+	}
+	div.our-story
+	{
+		padding-right:1em;
+	}
+	div.version-mission div.container
+	{
+		width:90%;
+	}
+	/********************* menu *****************/
+	div.our-menu-title h2
+	{
+		float:none;
+		display:block;
+	}
+	div.our-menu-title p
+	{
+		margin-top:-1%;
+		text-align:left;
+	}
+	p.tip
+	{
+		text-align:left !important;
+		margin-top:-0.5em !important;
+	}
+	div.categories
+	{
+		padding:0;
+	}
+	div.main-sub-categories table
+	{
+		display:none;
+	}
+	div.our-menu-title 
+	{
+		width:90% !important;
+	}
+	div.mb-categories
+	{
+		display:block;
+		background-color:rgba(255, 255, 255, 0.7);
+		padding:1em 0.5em 1em 0.5em;
+		text-align:left !important;
+	}
+	.wrapper-dropdown-3 .dropdown li a {
+    display: block;
+    padding:0.8em 7% 0.8em 7% !important;
+	}
+	.wrapper-dropdown-3:after
+	{
+		right:8% !important;
+	}
+	span.selection
+	{
+		margin-left:7%;
+	}
+	/********************* location 2 ******************/
+	#googlemaps
+	{
+		display:none;
+	}
+	div.large-location
+	{
+		display:none;
+	}
+	#accordion
+	{
+		display:block;
+	}
+
+	div.location2-bg
+	{
+		position:relative;
+		margin-top:20%;
+	}
+/*	div.location2
+	{
+		margin:0 auto !important;
+	}*/
+	div.panel-body
+	{
+		padding-left:9%;
+		padding-right:9%;
+	}
+	h2.panel-title
+	{
+		font-size:120% !important;
+		padding-left:6%;
+		padding-right:6%;
+	}
+	span.view-map a
+	{
+		border:solid 1px red;
+		padding:0.2em 0.5em 0.2em 0.5em;
+		color:#fff;
+		background-color:#1c4e31;
+		border-radius:4px;
+	}
+	
+	/******************** for contact us *****************/
+	div.contact
+	 {
+	 	padding-left:0;
+	 	padding-right:0;
+	 }
+	div.contact p
+	  {
+	  	font-size:1em;
+	  }
+	 div.contact-office
+  	{
+  		padding:2em 3em 2em 4.5em;
+  	}
+	 #ContactMap
+	{
+		height:23.6em !important;
+		position:relative !important;
+		width:100%;
+		padding:0;
+		margin:0;
+	}
+
+}
+/************************************************ MOBILE PHONE DEVICE RESPONSIVE ******************************/
+@media only screen and (max-width : 480px)
+{
+	h1
+	{
+		font-size:200% !important;
+	}
+	h2
+	{
+	font-size:150% !important;
+	}
+	div.menus-item h3
+	{
+		font-size:130% !important;
+	}
+	p
+	{
+		font-size:1em;
+		line-height:1.4em;
+	}
+	div.sub-menu ul
+	{
+		display:block !important;
+	}
+	div.sub-menu ul li
+	{
+		width:70%;
+		float:none;
+		margin-bottom:0.5em;
+	}
+	div.sub-menu ul li a
+	{
+		width:100%;
+		padding:4% 0 4% 0;
+		font-weight:400;
+		font-size:1.1em;
+	}
+	div.main-sub-categories
+	{
+		display:none;
+	}
+	/*div.main-menu
+	{
+		display:none;
+	}*/
+	div.menu
+	{
+		display:none;
+	}
+	div.categories 
+	{
+		padding:0;
+	}
+	div.menu-small
+	{
+		width:100%;
+	}
+	 .navbar-default .navbar-collapse, .navbar-default .navbar-form{ border:0px !important;}
+	 .navbar-default
+	 {
+	 	border:0px !important;
+	 }
+	 .navbar-default .navbar-toggle .icon-bar
+	{
+		background-color:#fff;
+	}
+	 .navbar-toggle
+	 {
+	 	margin-top:13px !important;
+	 	background-color:#1c4e31 !important;
+	 }
+	 .navbar-toggle:hover
+	 {
+	 	background-color:blue;
+	 }
+	.mb-menu
+	{
+		display:block;
+		position:absolute;
+		z-index:99999;
+	 /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)) !important;*/
+	 background-color:rgba(255,255,255,0.8);
+	 padding-left:1.5%;
+	 padding-right:1.5%;
+	 padding-bottom:2.5%;
+	}
+	.mb-menu ul li a
+	{
+		padding:0.8em 1.5em 0.8em 1.5em;
+	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color:none;
+    border-radius:2em;
+    background:none !important;
+    text-align:left;
+    padding-left:25%;
+    color:#1c4e31 !important;
+    width:70%;
+    margin:0 auto;
+    margin-bottom:0.4em;
+	}
+	.mb-menu ul li a:hover
+	{
+	/*background-color:#fef200 !important;*/
+	font-weight:bold;
+	border-radius:2em;
+	color:#1c4e31 !important;
+	text-decoration:none;
+	}
+	.mb-menu ul li a.active
+	{
+		/*background-color:#fef200 !important;*/
+		font-weight:bold;
+		color:#1c4e31 !important;
+	}
+	div.main-footer
+	{
+		width:95%;
+	}
+
+	div.footer div
+	{
+		display:block;
+		width:100%;
+	}
+	/************ index.html ********/
+	.carousel-caption
+	 {
+	 	top:15%;
+	 }
+	.carousel-indicators
+	{
+		top:40% !important;
+	}
+	div.tlb-submenu
+	{
+		width:100%;
+		padding-left:0;
+		padding-right:0;
+		left:1%;
+		top:50% !important;
+	}
+	div.home-footer
+	{
+	 top:80%;
+	 width:90%;
+	 color:#fff;
+	}
+	/***************** aboutus.html ********/
+	div.about-container
+	{
+		width:95%;
+		padding-top:1em;
+		padding-bottom:1em;
+	}
+	div.our-story
+	{
+		padding-right:1em;
+	}
+	div.version-mission div.container
+	{
+		width:95%;
+	}
+	/*********** menu.html *********/
+	div.our-menu-title h2
+	{
+		float:none;
+		display:block;
+	}
+	div.our-menu-title p
+	{
+		margin-top:-1%;
+		text-align:left;
+	}
+	p.tip
+	{
+		text-align:left !important;
+		margin-top:-0.5em !important;
+	}
+	div.menu-container
+	{
+		width:100%;
+		margin-top:0;
+	}
+	div.menus-item-row 
+	{
+		margin-bottom:0%;
+	}
+	div.menus-item-row div.menus-item
+	{
+		display:block;
+		margin:0 6% 8% 6%;
+	}
+	div.menus-item h3
+	{
+		margin-top:0%;
+	}
+	div.menus-item p
+	{
+		margin-top:0%;
+	}
+	p.alert-food
+	{
+
+		width:15.5em;
+	}
+	div.mb-categories
+	{
+		display:block;
+		background-color:rgba(255, 255, 255, 0.7);
+		padding:1em 1em 1em 1em;
+		text-align:left !important;
+	}
+	div.our-menu-title 
+	{
+		text-align:left;
+		width:95%;
+	}
+	span.selection
+	{
+		margin-left:4%;
+	}
+	/***************  loaction 2 *************/
+	#googlemaps
+	{
+		display:none;
+	}
+	div.large-location
+	{
+		display:none;
+	}
+	#accordion
+	{
+		display:block;
+	}
+
+	div.location2-bg
+	{
+		/*bottom:none;*/
+		position:relative;
+		margin-top:20%;
+	}
+	div.location2
+	{
+		margin:0 auto !important;
+	}
+	div.panel-body
+	{
+		padding-left:5.5%;
+		padding-right:5.5%;
+	}
+	
+	h2.panel-title
+	{
+		font-size:130% !important;
+		padding-left:2%;
+		padding-right:2%;
+	}
+	span.view-map a
+	{
+		border:solid 1px red;
+		padding:0.2em 0.5em 0.2em 0.5em;
+		color:#fff;
+		background-color:#1c4e31;
+		border-radius:4px;
+	}
+
+	/***************** contact us ***************/
+	div.contact
+	 {
+	 	padding-left:0;
+	 	padding-right:0;
+	 }
+	div.contact p
+	  {
+	  	font-size:1em;
+	  }
+	 div.contact-office
+  	{
+  		padding:2em 0 2em 3em !important;
+  	}
+	 #ContactMap
+	{
+		height:22em !important;
+		position:relative !important;
+		width:100%;
+		padding:0;
+		margin:0;
+	}
+
+}
+/********** mobile end **********/
+
+/*************************** MEDIA QUERY FOR HEIGHT RESPONSIVE ********************/
+@media screen and ( max-height: 700px )
+{
+	.carousel-indicators
+    {
+    	top:55%;
+    	left:0%;
+    	right:0%;
+    	text-align:left;
+    	width:80%;
+    	margin:0 auto;
+    }
+    /****************contact.html ****************/
+	 #ContactMap
+		{
+			height:27em;
+			width: 100%; 
+			position:absolute;
+			z-index:-1;
+			top:0;
+			left:0;
+		}
+	  div.contact-office
+	  {
+	  	padding:2.6em 0 2.6em 0;
+	  }
+    
+}
+.ui-selectmenu-button span.ui-selectmenu-text
+	{
+		margin-left:5% !important;
+	}
+	.ui-menu .ui-menu-item
+	{
+		padding-left:9% !important;
+		line-height:2em;
+	}
+	.ui-selectmenu-button span.ui-icon
+	{
+		width: 0;
+		height: 0;
+		border-left: 7px solid transparent;
+		border-right: 7px solid transparent;
+		border-top: 10px solid #000;
+		margin-top:-4px !important;
+	}
+
+
+	/******************* menu categories dropdown box *******************/
+	.wrapper-dropdown-3 {
+    /* Size and position */
+    position: relative;
+    z-index:9999;
+    width: 100%;
+    padding:0.8em 0em 0.8em 0em;
+    /* Styles */
+    background: #efefef;
+    border-radius:0.5em;
+    cursor: pointer;
+    outline: none;
+    color: #666666;
+}
+
+.wrapper-dropdown-3:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #8aa8bd transparent;
+}
+
+.wrapper-dropdown-3 .dropdown {
+  /* Size & position */
+    position: absolute;
+  top: 100%;
+    left: 0;
+    right: 0;
+    padding-left:0px;
+    /* Styles */
+    background: #fff;
+    font-weight: normal;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    list-style: none;
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+}
+
+.wrapper-dropdown-3 .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;   
+}
+
+.wrapper-dropdown-3 .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+}
+
+.wrapper-dropdown-3 .dropdown li a {
+    display: block;
+    padding:0.8em 4% 0.8em 4%;
+    text-decoration: none;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+     color: #666666;
+}
+
+.wrapper-dropdown-3 .dropdown li i {
+    float: right;
+    color: inherit;
+}
+
+.wrapper-dropdown-3 .dropdown li:first-of-type a {
+    /*border-radius: 7px 7px 0 0;*/
+    color: #666666;
+     border-radius:0.6em;
+}
+
+.wrapper-dropdown-3 .dropdown li:last-of-type a {
+    border: none;
+    border-radius:0.6em;
+}
+
+/* Hover state */
+
+.wrapper-dropdown-3 .dropdown li:hover a {
+    background-color:#fff200;
+    border-radius:0.6em;
+}
+
+/* Active state */
+
+.wrapper-dropdown-3.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+.no-opacity       .wrapper-dropdown-3 .dropdown,
+.no-pointerevents .wrapper-dropdown-3 .dropdown {
+    display: none;
+    opacity: 1; /* If opacity support but no pointer-events support */
+    pointer-events: auto; /* If pointer-events support but no pointer-events support */
+}
+
+.no-opacity       .wrapper-dropdown-3.active .dropdown,
+.no-pointerevents .wrapper-dropdown-3.active .dropdown {
+    display: block;
+}
+ /******** youtube play icon **********/

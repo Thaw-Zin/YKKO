@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.ykko.com.mm/sitemap.xml
