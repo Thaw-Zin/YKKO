@@ -7,7 +7,7 @@
 		</script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta name="keywords" content="YKKO, Must eat in Myanmar, Kyay oh, Noodle Soup, BBQ & Grill, Satay, Myanmar Food, ykko kyay-oh & sichet">
+		<meta name="keywords" content="YKKO, Must eat in Myanmar, Kyay oh, BBQ & Grill, Satay, Myanmar Food, ykko kyay-oh & sichet">
 	    <meta name="description" content="View our menu and new items ">
 	    <meta name="robots" content="index,follow">
 	    <meta name="author" content="Pixel Directs">
@@ -333,13 +333,6 @@
 				</div> 
 
 				<div class="row menus-item-row">
-					<!-- <div class="col-sm-6 col-md-3 menus-item">
-						<p class="text-center alert-food"><span> New</span></p>
-						<img src="images/menus/KyayOh-Sichet/Sichet/Noodle Soup.png" data-at2x="images/menus/KyayOh-Sichet/Sichet/retina/Noodle Soup@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Noodle Soup</h3>
-						</div>
-					</div> -->
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food"><span> New</span></p>
 						<img src="images/menus/Chinese-Cuisine/Rice-Congee.png" data-at2x="images/menus/Chinese-Cuisine/retina/Rice-Congee@2x.png" class="img-responsive">
@@ -365,25 +358,11 @@
 				</div> 
 				<!-- * Thai * -->
 				<div class="row menus-item-row">
-					<!-- <div class="col-sm-6 col-md-3 menus-item">
-						<p class="text-center alert-food"><span> New</span></p>
-						<img src="images/menus/Thai-Cuisine/Crab Meat with Fish Maw Soup.png" data-at2x="images/menus/Thai-Cuisine/retina/Crab Meat with Fish Maw Soup@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Crab Meat with Fish Maw Soup</h3>
-						</div>
-					</div> -->
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food" style="visibility:hidden;"><span> New</span></p>
 						<img src="images/menus/Grill/Grill Chicken Sausage.png" data-at2x="images/menus/Grill/retina/Grill Chicken Sausage@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Grilled Chicken Sausage</h3>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<p class="text-center alert-food" style="visibility:hidden;"><span> New</span></p>
-						<img src="images/menus/Grill/Grill Chicken Sibu.png" data-at2x="images/menus/Grill/retina/Grill Chicken Sibu@2x.png" class="img-responsive ykko">
-						<div class="food-des">
-							<h3> Grilled Chicken Sibu</h3>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3 menus-item">
@@ -396,12 +375,6 @@
 				</div>
 				<!-- * grill * -->
 				<div class="row menus-item-row">
-					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Grill/Grilled Chicken Liver.png" data-at2x="images/menus/Grill/retina/Grilled Chicken Liver@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Grilled Chicken Liver</h3>
-						</div>
-					</div>
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Grill/Grill Pork Ball.png" data-at2x="images/menus/Grill/retina/Grill Pork Ball@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -788,12 +761,6 @@
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Desert/Chocolate Meringue Cake.png" data-at2x="images/menus/Desert/retina/Chocolate Meringue Cake@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Traditional Chocolate Cake</h3>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Desert/Brownie Cake.png" data-at2x="images/menus/Desert/retina/Brownie Cake@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Brownie Cake</h3>
@@ -812,18 +779,6 @@
 						<img src="images/menus/Desert/Cointreau.png" data-at2x="images/menus/Desert/retina/Cointreau@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Chocolate Dream</h3>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Desert/Lime Tart.png" data-at2x="images/menus/Desert/retina/Lime Tart@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Lime Tart</h3>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Desert/Chocolate-Dream.png" data-at2x="images/menus/Desert/retina/Chocolate-Dream@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Chocolate Meringue</h3>
 						</div>
 					</div>
 				</div>
@@ -853,13 +808,6 @@
 							<h3> Seafood Kyay-Oh Sichet</h3>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<!-- <p class="text-center alert-food"><span> New</span></p> -->
-						<img src="images/menus/KyayOh-Sichet/Sichet/Noodle Soup.png" data-at2x="images/menus/KyayOh-Sichet/Sichet/retina/Noodle Soup@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Noodle Soup</h3>
-						</div>
-					</div>
 				</div>
 
 				<div class="row menus-item-row">
@@ -876,13 +824,6 @@
 						<img src="images/menus/Chinese-Cuisine/Rice-Congee.png" data-at2x="images/menus/Chinese-Cuisine/retina/Rice-Congee@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Rice Congee</h3>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<!-- <p class="text-center alert-food"><span> New</span></p> -->
-						<img src="images/menus/Thai-Cuisine/Crab Meat with Fish Maw Soup.png" data-at2x="images/menus/Thai-Cuisine/retina/Crab Meat with Fish Maw Soup@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Crab Meat with Fish Maw Soup</h3>
 						</div>
 					</div>
 					
@@ -1026,13 +967,6 @@
 						<img src="images/menus/KyayOh-Sichet/Sichet/Sichet (Noodle).png" data-at2x="images/menus/KyayOh-Sichet/Sichet/retina/Sichet (Noodle)@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Sichet (Noodle)</h3>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<p class="text-center alert-food"><span> New</span></p>
-						<img src="images/menus/KyayOh-Sichet/Sichet/Noodle Soup.png" data-at2x="images/menus/KyayOh-Sichet/Sichet/retina/Noodle Soup@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Noodle Soup</h3>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3 menus-item">
@@ -1320,15 +1254,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="row menus-item-row">
-					<div class="col-sm-6 col-md-3 menus-item">
-						<p class="text-center alert-food"><span> New</span></p>
-						<img src="images/menus/Thai-Cuisine/Crab Meat with Fish Maw Soup.png" data-at2x="images/menus/Thai-Cuisine/retina/Crab Meat with Fish Maw Soup@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Crab Meat with Fish Maw Soup</h3>
-						</div>
-					</div>
-				</div>
 				
 			</div> 
     <!-- /////////////   Grills  //////////////// -->
@@ -1393,12 +1318,6 @@
 
 				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Grill/Grill Chicken Sibu.png" data-at2x="images/menus/Grill/retina/Grill Chicken Sibu@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Grilled Chicken Sibu</h3>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Grill/Grill Chicken Sausage.png" data-at2x="images/menus/Grill/retina/Grill Chicken Sausage@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Grilled Chicken Sausuage</h3>
@@ -1434,12 +1353,6 @@
 						<img src="images/menus/Grill/Grill fish ball.png" data-at2x="images/menus/Grill/retina/Grill fish ball@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Grilled Fish Ball</h3>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Grill/Grilled Chicken Liver.png" data-at2x="images/menus/Grill/retina/Grilled Chicken Liver@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Grilled Chicken Liver</h3>
 						</div>
 					</div>
 					
@@ -1723,22 +1636,9 @@
 							<h3> Chocolate Dream</h3>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Desert/Chocolate Meringue Cake.png" data-at2x="images/menus/Desert/retina/Chocolate Meringue Cake@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Traditional Chocolate Cake</h3>
-						</div>
-					</div>
 				</div>
 
 				<div class="row menus-item-row">
-					<div class="col-sm-6 col-md-3 menus-item">
-						<p class="text-center alert-food" style="visibility:hidden;"><span> New</span></p>
-						<img src="images/menus/Desert/Lime Tart.png" data-at2x="images/menus/Desert/retina/Lime Tart@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Lime Tart</h3>
-						</div>
-					</div>
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food" style="visibility:hidden;"><span> New</span></p>
 						<img src="images/menus/Desert/Chocolate-Dream.png" data-at2x="images/menus/Desert/retina/Chocolate-Dream@2x.png" class="img-responsive">
