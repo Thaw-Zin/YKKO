@@ -530,6 +530,7 @@ div.view-share
    position:absolute;
    bottom:0;
    width:100%;
+   opacity: 1;
    height:300px;   /* Height of the footer */
  }
  div.location-2-slider
@@ -740,6 +741,14 @@ div.location-2-slide-container a:hover
   div.contact-office
   {
   	padding:3.8em 0 4em 0;
+  }
+  div.contact-office a
+  {
+  	color:#fff;
+  }
+  div.contact-office a:hover
+  {
+  	text-decoration: underline;
   }
 
 @media only screen 

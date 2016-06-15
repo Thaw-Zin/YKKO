@@ -105,7 +105,7 @@
 							<p> No.(24/26), 6th Floor, South Race Course Street,<br>Race Course Condominium, Tamwe Township,<br>Yangon, Myanmar</p>
 							<p> Office Hour : <br> 9:00 am - 5:30 pm</p>
 							<p> Phone :<br>951-573 505 Ext:216, 959-86-50850</p>
-							<p> Email :<br>headoffice@ykkomyanmar.com</p>
+							<p> Email :<br><a href="mailto:headoffice@ykko.com.mm?Subject=Hello YKKO"> headoffice@ykko.com.mm</a></p>
 						</div>
 						<div class="col-md-6" style="padding-right:0px;">
 							<div id="ContactMap"></div>

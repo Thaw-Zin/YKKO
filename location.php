@@ -2302,14 +2302,14 @@
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion6" href="#collapsemdyOne">
+									<a data-toggle="collapse" data-parent="#accordion6" href="#collapsemdyOne2">
 										YANKIN
 										<span class="glyphicon glyphicon-minus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
 									</a>
 
 								</h2>
 							</div>
-							<div id="collapsemdyOne" class="panel-collapse collapse in">
+							<div id="collapsemdyOne2" class="panel-collapse collapse in">
 								<div class="panel-body">
 									<p> No. 10, Thit Sar Street,<br>Yankin Yownship, Yangon</p>
 									<p> <i class="fa fa-phone fa-lg"></i> : 951-572 196</p>
@@ -2387,14 +2387,14 @@
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion8" href="#collapsetown2One">
+									<a data-toggle="collapse" data-parent="#accordion8" href="#collapsetown2One2">
 										RACE COURSE <i style="font-weight:400; font-size:50%; letter-spacing:1px;"> (TAMWE)</i>
 										<span class="glyphicon glyphicon-minus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
 									</a>
 
 								</h2>
 							</div>
-							<div id="collapsetown2One" class="panel-collapse collapse in">
+							<div id="collapsetown2One2" class="panel-collapse collapse in">
 								<div class="panel-body">
 									<p> No. 24/26 , Ground Floor, South Race Course Street, (Race Course Condo), Tamwe Township, Yangon.</p>
 									<p> <i class="fa fa-phone fa-lg"></i> : 951-401 187 Ext: 130</p>
@@ -2407,13 +2407,13 @@
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion8" href="#collapsetown2Two">
+									<a data-toggle="collapse" data-parent="#accordion8" href="#collapsetown2Two2">
 										SHWE BAHO
 										<span class="glyphicon glyphicon-plus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
 									</a>
 								</h2>
 							</div>
-							<div id="collapsetown2Two" class="panel-collapse collapse">
+							<div id="collapsetown2Two2" class="panel-collapse collapse">
 								<div class="panel-body">
 									<p>No. 01-03, Building (B), Ground Floor, Myittar Yeik Mon Housing, Thamain Bayan  Road, Tamwe Township, Yangon.</p>
 									<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118771</p>
@@ -3019,5 +3019,8 @@
 
 		</script>
 		<script type="text/javascript" src="js/retina.min.js"></script>
+		<script type="text/javascript">
+			//alert($(".location2-bg").innerHeight());
+		</script>
 	</body>
 	</html>

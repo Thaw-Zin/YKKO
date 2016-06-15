@@ -333,13 +333,13 @@
 				</div> 
 
 				<div class="row menus-item-row">
-					<div class="col-sm-6 col-md-3 menus-item">
+					<!-- <div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food"><span> New</span></p>
 						<img src="images/menus/KyayOh-Sichet/Sichet/Noodle Soup.png" data-at2x="images/menus/KyayOh-Sichet/Sichet/retina/Noodle Soup@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Noodle Soup</h3>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food"><span> New</span></p>
 						<img src="images/menus/Chinese-Cuisine/Rice-Congee.png" data-at2x="images/menus/Chinese-Cuisine/retina/Rice-Congee@2x.png" class="img-responsive">
@@ -365,13 +365,13 @@
 				</div> 
 				<!-- * Thai * -->
 				<div class="row menus-item-row">
-					<div class="col-sm-6 col-md-3 menus-item">
+					<!-- <div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food"><span> New</span></p>
 						<img src="images/menus/Thai-Cuisine/Crab Meat with Fish Maw Soup.png" data-at2x="images/menus/Thai-Cuisine/retina/Crab Meat with Fish Maw Soup@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Crab Meat with Fish Maw Soup</h3>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food" style="visibility:hidden;"><span> New</span></p>
 						<img src="images/menus/Grill/Grill Chicken Sausage.png" data-at2x="images/menus/Grill/retina/Grill Chicken Sausage@2x.png" class="img-responsive">

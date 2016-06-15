@@ -77,7 +77,7 @@ $(document).ready(function() {
 //$( "#myanmar").click(function() 
 $(document).on('click','#myanmar',function(){
 				$("#about-description").addClass("myanmar-text");
-				$("#about-description").html("YKKO ကြေးအိုးကို ၁၉၉၈ ခုနှစ်တွင် ရန်ကင်းမြို့ နယ်၌ ကြေးအိုးဆိုင်လေး အသွင်ဖြင့် စတင်ဖွင့်လှစ်ခဲ့ပါသည်။ ယခုအခါ မြန်မာနိုင်ငံရှိ မြို့ ကြီး (၆) မြို့ တွင် YKKO ဆိုင်ပေါင်း (၃၃)ဆိုင်ကို အရည်အသွေး ပြည့်မှီသော ကြေးအိုးနှင့် အခြားဟင်းလျာများ ရောင်းချပေးရန် ရည်ရွယ်၍ အောင်မြင်စွာ ဖွင့်လှစ်နိုင်ခဲ့ပြီး ဖြစ်ပါသည်။ ရန်ကင်းမြို့ နယ်တွင် စတင်ရောင်းချခဲ့သည့်အတွက် ပထမဆုံးသော ဆိုင်ကို “ရန်ကင်းကြေးအိုး” ဟု အမည် ခေါ်တွင်စေခဲ့ပြီးနောက် ဒုတိယမြောက် ဆရာစံဆိုင်ခွဲ ဖွင့်လှစ်သော အခါ YanKinKyayOh ၏ အတိုကောက် YKKO ဟု ပြောင်းလဲ ခေါ်တွင် စေခဲ့ပါသည်။ ထိုအချိန်မှစ၍ YKKO တွင် လာရောက် စားသုံးရသော အရသာအား နေရာထိုင်ခင်း အဆင်ပြေမှု ၊ သန့်ရှင်းမှု ၊ အရသာရှိသော စားသောက်ဖွယ် ရာများဖြင့် ပိုမို ပေါ်လွင်စေခဲ့သည်မှာ ယနေ့တိုင်ပင် ဖြစ်ပါသည်။");
+				$("#about-description").html("YKKO ကြေးအိုးကို ၁၉၉၈ ခုနှစ်တွင် ရန်ကင်းမြို့ နယ်၌ ကြေးအိုးဆိုင်လေး အသွင်ဖြင့် စတင်ဖွင့်လှစ်ခဲ့ပါသည်။ ယခုအခါ မြန်မာနိုင်ငံရှိ မြို့ ကြီး (၆) မြို့ တွင် YKKO ဆိုင်ပေါင်း (၃၇)ဆိုင်ကို အရည်အသွေး ပြည့်မှီသော ကြေးအိုးနှင့် အခြားဟင်းလျာများ ရောင်းချပေးရန် ရည်ရွယ်၍ အောင်မြင်စွာ ဖွင့်လှစ်နိုင်ခဲ့ပြီး ဖြစ်ပါသည်။ ရန်ကင်းမြို့ နယ်တွင် စတင်ရောင်းချခဲ့သည့်အတွက် ပထမဆုံးသော ဆိုင်ကို “ရန်ကင်းကြေးအိုး” ဟု အမည် ခေါ်တွင်စေခဲ့ပြီးနောက် ဒုတိယမြောက် ဆရာစံဆိုင်ခွဲ ဖွင့်လှစ်သော အခါ YanKinKyayOh ၏ အတိုကောက် YKKO ဟု ပြောင်းလဲ ခေါ်တွင် စေခဲ့ပါသည်။ ထိုအချိန်မှစ၍ YKKO တွင် လာရောက် စားသုံးရသော အရသာအား နေရာထိုင်ခင်း အဆင်ပြေမှု ၊ သန့်ရှင်းမှု ၊ အရသာရှိသော စားသောက်ဖွယ် ရာများဖြင့် ပိုမို ပေါ်လွင်စေခဲ့သည်မှာ ယနေ့တိုင်ပင် ဖြစ်ပါသည်။");
 
 				$(this).html('English');
 				$(this).attr('id', 'english');
@@ -138,8 +138,7 @@ $(document).on('click','#english',function(){
 						</div>
 						<div class="col-md-6">
 							<h2> OUR MISSION</h2>
-							<p> To provide customers for 100% satisfaction operation on "3" foundational principles; <!-- <br> -->
-							Quality, Services and Cleanliness</p>
+							<p> To provide customers with 100% based on the foundational principles operating on '3' foundational principles of foundation: Quality, Cleanliness and Service.</p>
 						</div>
 					</div>
 				</div>
@@ -150,7 +149,7 @@ $(document).on('click','#english',function(){
 						<div class="col-md-6 our-story">
 							<h2><span> OUR STORY</span> <span class="pull-right read-by"><p class="read-in">&nbsp <a id="myanmar"> ျမန္မာဘာသာ</a> </p> </span>
 							</h2> 
-							<p id="about-description">We originally began as a small, humble shop in Yangon city, Myanmar. First opened in 1988, we now have 33 branches spread across the country. Our goal is to deliver more of our quality Kyay-Oh and to share our dishes with as many people as possible. Inspired by the simplicity of the dish, we began making Kyay-Oh in Yankin suburb, where the first restaurant, Yankin Kyay-Oh was opened. Later, when we opened a second shop on Saya San road, we abbreviated the original name to YKKO. Since then, YKKO has sought to accentuate the Kyay-Oh dining experience by placing emphasis on convenience, clean and tasty noodles. </p>
+							<p id="about-description">We originally began as a small, humble shop in Yangon city, Myanmar. First opened in 1988, we now have 37 branches spread across the country. Our goal is to deliver more of our quality Kyay-Oh and to share our dishes with as many people as possible. Inspired by the simplicity of the dish, we began making Kyay-Oh in Yankin suburb, where the first restaurant, Yankin Kyay-Oh was opened. Later, when we opened a second shop on Saya San road, we abbreviated the original name to YKKO. Since then, YKKO has sought to accentuate the Kyay-Oh dining experience by placing emphasis on convenience, clean and tasty noodles. </p>
 							<p style="margin-top:3%;"> Click the video to watch our most recent TVC <img src="images/black-right-arrow.png" style="margin-left:2%;"></p>
 						</div>
 						<div class="col-md-6">
