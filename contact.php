@@ -65,9 +65,9 @@
 		   	}
 		var map=new google.maps.Map(document.getElementById("ContactMap"),mapProp);
 
-		var url = 'images/ykko-marker.png';
+		var url = 'images/ykko-marker.png?v=1';
 		if(window.devicePixelRatio > 1.5){
-        url = 'images/ykko-marker@2x.png';
+        url = 'images/ykko-marker@2x.png?v=1';
     	}
 
     var image = {
