@@ -43,19 +43,33 @@
 		<script>
 			$(document).ready(function() {
 				$(document).on('click','#myanmar',function(){
-				$("#service-cattering").addClass("myanmar-text");
-				$("#service-cattering").html("ကျွန်ုပ်တို့သည် YKKO စားသုံးသူ ကျေနပ်နှစ်သိမ့်မှုကို ပေးစွမ်းရန်အတွက် အစားအစာ အရည်အသွေး၊ အချက်အပြုတ်၊ အပြင်အဆင်တို့ကို ထူးကဲစွာ ပေးစွမ်းနိုင်စေရန် ကြိုးစား အားထုတ်လျှက် ရှိပါသည်။ <br> (၄)နှစ်တာ ပွဲစီစဉ်မှု အတွေ့ အကြုံများ အရ ကျွန်ုပ်တို့ သည် အများနှင့် သက်ဆိုင်သောပွဲ (သို့မဟုတ်) ကုမ္ပဏီများ အပါအဝင် စားပွဲသောက်ပွဲ ဧည့်ခံပွဲ အမျိုးမျိုးအတွက် YKKO မှ ကျွန်းကျင်စားဖိုမှုများ ကိုယ်တိုင်ချက်ပြုတ် ဝန်ဆောင်မှုပေးလျှက် ရှိပါသည်။ <br> ဒေသထွက် အသား၊ ငါး၊ ဟင်းသီးဟင်းရွတ်၊ အသီးအနှံများကို အသုံးပြုပြီး ကျွန်ုတို့၏ စားဖိုမှုးများနှင့် ပွဲစီစဉ်သူများမှ YKKO ၏ မူပိုင် ကြေးအိုး၊ အကင်မှ အစ တရုတ်အစားအစာ၊ ထိုင်းအစားအစာ အဆုံး ချက်ပြုတ် ဝန်ဆောင်မှု ပေးလျှက်ရှိပါသည်။");
-				$(this).html('English');
-				$(this).attr('id', 'english');
-			});
+					$("#service-cattering").addClass("myanmar-text");
+					$("#service-cattering").html("ကျွန်ုပ်တို့သည် YKKO စားသုံးသူ ကျေနပ်နှစ်သိမ့်မှုကို ပေးစွမ်းရန်အတွက် အစားအစာ အရည်အသွေး၊ အချက်အပြုတ်၊ အပြင်အဆင်တို့ကို ထူးကဲစွာ ပေးစွမ်းနိုင်စေရန် ကြိုးစား အားထုတ်လျှက် ရှိပါသည်။ <br> (၄)နှစ်တာ ပွဲစီစဉ်မှု အတွေ့ အကြုံများ အရ ကျွန်ုပ်တို့ သည် အများနှင့် သက်ဆိုင်သောပွဲ (သို့မဟုတ်) ကုမ္ပဏီများ အပါအဝင် စားပွဲသောက်ပွဲ ဧည့်ခံပွဲ အမျိုးမျိုးအတွက် YKKO မှ ကျွန်းကျင်စားဖိုမှုများ ကိုယ်တိုင်ချက်ပြုတ် ဝန်ဆောင်မှုပေးလျှက် ရှိပါသည်။ <br> ဒေသထွက် အသား၊ ငါး၊ ဟင်းသီးဟင်းရွတ်၊ အသီးအနှံများကို အသုံးပြုပြီး ကျွန်ုတို့၏ စားဖိုမှုးများနှင့် ပွဲစီစဉ်သူများမှ YKKO ၏ မူပိုင် ကြေးအိုး၊ အကင်မှ အစ တရုတ်အစားအစာ၊ ထိုင်းအစားအစာ အဆုံး ချက်ပြုတ် ဝန်ဆောင်မှု ပေးလျှက်ရှိပါသည်။");
+					$(this).html('English');
+					$(this).attr('id', 'english');
+				});
 
-			$(document).on('click','#english',function(){
-				$("#service-cattering").removeClass("myanmar-text");
-				$("#service-cattering").html("At YKKO, we thrive to provide amazing dining experiences with a dedication to excellence in food quality, preparation and presentation. With expertise gained from 4 years of experience, we cater for all sizes and styles of functions. Including public and private celebrations, corporate, or other special events. Using locally sourced meat, vegetables and fruits, our team of chefs and event planners can offer you cuisine ranging from our trademark Kyay-Oh & BBQ, to Chinese and Thai dishes.");
-				$(this).html('ျမန္မာဘာသာ');
-				$(this).attr('id', 'myanmar');
+				$(document).on('click','#myanmar-delivery',function(){
+					$("#service-delivery").addClass("myanmar-text");
+					$("#service-delivery").html('ကျွနုပ်တို့ရဲ့ YKKO မှ စားသုံးသူ မိတ်ဆွေအပေါင်းအား စိတ်ကျေနပ် အဆင်ပြေစေရန် အကောင်းဆုံး ဝန်ဆောင်မှုများဖြင့် ဆောင်ရွက်ပေးလျှက် ရှိနေပါသည်။ ယခုကျွနုပ်တို့၏ ရန်ကုန်ဆိုခွဲများတွင် အိမ်အရောက်ပို့ဆောင်ပေးသော ဝန်ဆောင်မှုကို ချိုသာသော စျေးနှုန်းဖြင့် ဝန်ဆောင်မှု ပေးလျှက် ရှိနေပါပြီ&#46;&#46;&#46;&#46;&#46; <br>YKKO ၏ အိမ်အရောက် ပို့ပေးသောဝန်ဆောမှုကို<br>www.yangond2d.com (or) Call 09 254016679, 09 789308341<br>www.food2u.com.mm (or) Call 09 977202015, 09 5130403, 01 537668<br>အစရှိသော Delivery Service များမှတဆင့် မှာယူနိုင်ပါပြီ&#46;&#46;&#46;&#46;&#46;');
+					$(this).html('English');
+					$(this).attr('id', 'english-delivery');
+				});
+
+				$(document).on('click','#english',function(){
+					$("#service-cattering").removeClass("myanmar-text");
+					$("#service-cattering").html("At YKKO, we thrive to provide amazing dining experiences with a dedication to excellence in food quality, preparation and presentation. With expertise gained from 4 years of experience, we cater for all sizes and styles of functions. Including public and private celebrations, corporate, or other special events. Using locally sourced meat, vegetables and fruits, our team of chefs and event planners can offer you cuisine ranging from our trademark Kyay-Oh & BBQ, to Chinese and Thai dishes.");
+					$(this).html('ျမန္မာဘာသာ');
+					$(this).attr('id', 'myanmar');
+				});
+
+				$(document).on('click','#english-delivery',function(){
+					$("#service-delivery").removeClass("myanmar-text");
+					$("#service-delivery").html("YKKO always bring the best services for our customers’ convenience. Now, our Yangon outlets are offering delivery services with cheap delivery charge. Order now through <br/>www.yangond2d.com (or) Call 09 254016679, 09 789308341<br/>www.food2u.com.mm (or) Call 09 977202015, 09 5130403, 01 537668");
+					$(this).html('ျမန္မာဘာသာ');
+					$(this).attr('id', 'myanmar-delivery');
+				});
 			});
-		});
 		</script>
 		<link href='http://mywebfont.appspot.com/css?font=padauk' rel='stylesheet' type='text/css'>
     	<!--<link href='http://mywebfont.appspot.com/css?font=zawgyi' rel='stylesheet' type='text/css'>
@@ -82,7 +96,7 @@
 					<!-- //// Menu End //// -->
 				</div>
 				<div class="servicebg-area"> &nbsp </div>
-			</div>	
+			</div>
 				<div class="container service">
 					<div class="row" style="margin-right:0px;">
 						<div class="col-md-6 content-service">
@@ -113,6 +127,23 @@
 									<img src="images/wifi.png" class="img-responsive">
 								</div>  
 							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="container service">
+					<div class="row" style="margin-right:0px;">
+						<div class="col-md-12 content-service">
+							<div class="service-des1">
+								<p class="service-language pull-right"> <a id="myanmar-delivery"> ျမန္မာဘာသာ</a> </p>
+								<h2> DELIVERY SERVICE </h2>
+								<p id="service-delivery"> YKKO always bring the best services for our customers’ convenience. Now, our Yangon outlets are offering delivery services with cheap delivery charge. Order now through <br/>
+									www.yangond2d.com (or) Call 09 254016679, 09 789308341<br/>
+									www.food2u.com.mm (or) Call 09 977202015, 09 5130403, 01 537668
+								</p>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<img src="images/delivery.jpg" class="img-responsive round5">
 						</div>
 					</div>
 				</div>	

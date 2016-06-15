@@ -29,7 +29,7 @@ $(document).ready(function() {
 		$("div.mb-city3-data").show();
 	});
 	$("#mb-city4").click(function(){ 
-		$("#city-stay").text("Pyin Oo Lwin");
+		$("#city-stay").text("Monywa");
 		$("#township-stay").text("All");
 		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
 	
@@ -37,7 +37,7 @@ $(document).ready(function() {
 		$("div.mb-city4-data").show();
 	});
 	$("#mb-city5").click(function(){ 
-		$("#city-stay").text("Myeik");
+		$("#city-stay").text("Bago");
 		$("#township-stay").text("All");
 		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
 	

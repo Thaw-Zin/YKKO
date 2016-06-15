@@ -42,216 +42,258 @@
 	<script>
 		function initialize() {
 			var locations = [
-			[
-			"Yankin",
-			"No.(10), Thit Sar Street, Yangon",
-			"16.7850553",
-			"96.1713889"
-			],
-			[
-			"Bahan",
-			"No.(28), Saya San Road, Yangon",
-			"16.8165266",
-			"96.1584927"
-			],
-			[
-			"Thingangyun",
-			"No.(A1-001), Zawtika Housing, Lay Daung Kan Road, Junction Zawana, Thingangyun Township, Yangon. ",
-			"16.8273102",
-			"96.1900128"
-			],
-			[
-			"Seik Kan Thar",
-			"No.(286), Seik Kan Thar Street, Yangon",
-			"16.7778753",
-			"96.1633018"
-			],
-			[
-			"Hledan",
-			"No.(35), Insein Road(Near Hledan Junction), Yangon",
-			"16.8293883",
-			"96.1304298"
-			],
-			[
-			"MICT Park",
-			"Special Canteen, MICT Park, Universities of Hlaing Compus, Thamine College Street, Hlaing Township, Yangon",
-			"16.848417",
-			"96.1277625"
-			],
-			[
-			"8-Mile",
-			"No.(57), Room(G/A), Ground Floor, (Near 8-Mile Junction), Kyaik Wine Pagoda Road, Da Na Thiri Tower, Yangon",
-			"16.8646958",
-			"96.1413732"
-			],
-			[
-			"Thaketa",
-			"No.(14-E), Room(105), Ground Floor (Capital Hypermarket), Min Nandar Road, Dawpon Township, Yangon.",
-			"16.863855",
-			"96.184943"
-			],
-			[
-			"Thamine",
-			"No.(114), 1st Floor, Corner of Yangon-Insein Main Road & Thamine Railway Station Street, Quarter (2), Yangon",
-			"16.8622747",
-			"96.1204606"
-			],
-			[
-			"Junction Square",
-			"Room(S-201), Between Pyay Road & Kyuntaw  Street, Near Agriculture (Bus Stop), Yangon",
-			"16.8173379",
-			"96.1314708"
-			],
-			[
-			"Race Course",
-			"No.(24/26), Ground Floor, South Race Course Street, (Race Course Condo), Yangon",
-			"16.8145449",
-			"96.1704866"
-			],
-			[
-			"Wardan",
-			"No.(790), Room(112/113), Ground Floor(Da Na Thiha Center), Corner of Bogyoke Aung San Road And Wardan Street, Yangon",
-			"16.7799303",
-			"96.1395473"
-			],
-			[
-			"Shwe Baho",
-			"No.(01-03), Building(B), Ground Floor, Myittar Yeik Mon Housing, Thamain Bayan Road, Yangon",
-			"16.8108089",
-			"96.1763427"
-			],
-			[
-			"Dagon Center II",
-			"No.(01-03), No.(3/4), 5th Floor, Pyay Road (Dagon Centre II), Yangon",
-			"16.8044691",
-			"96.1375809"
-			],
-			[
-			"Shwe Gone Daing Ocean",
-			"Room(113), Ground Floor, Corner of Shwe Gone Daing Road and Banyardala Road, Yangon",
-			"16.8086491",
-			"96.1695309"
-			],
-			[
-			"People's Park",
-			"Room(G-2), People's Park and Square (Myanmar Cultural Valley), U Wisara Road, Yangon",
-			"16.7980626",
-			"96.1451034"
-			],
-			[
-			"South Dagon",
-			"Room(3), City Mart Supermarket (South Dagon Branch), Corner of Hlawgar Road & Myeik Road, South Dagon Township, Yangon.",
-			"16.8481916",
-			"96.2364338"
-			],
-			[
-			"Star City",
-			"Building (A-1), Wing (C), Middle Room, Star City, Thanlyin, Yangon",
-			"16.7766434",
-			"96.2295053"
-			],
-			[
-			"Insein",
-			"No.(24), Lan Thit Road, Nant Thar Gone Quarter, Yangon",
-			"16.88951",
-			"96.10964"
-			],
-			[
-			"Junction Mawtin",
-			"Room(403), Level(4), Maw Tin Tower, Corner of Lann Thit Street and Anawrahtar Road, Yangon",
-			"16.7774772",
-			"96.1421179"
-			],
-			[
-			"City Mart(Shwe Pin lone)",
-			"Room(4/5), City Mart Supermarket, Ground Floor, Bayintnaung Road, (25)Quarter,ShwePinLon Housing, North Dagon Township, Yangon.",
-			"16.8593",
-			"96.1994"
-			],
-			[
-			"City Mart(Ayarwon)",
-			"Shop(06), No.(162/163), (7)Quater, Ayeyarwon Road, Myakwarnyo Housing, Thaketa Township, Yangon.",
-			"16.8044",
-			"96.20895"
-			],
-			[
-			"City Mart(waizayandar)",
-			"Shop (06), No (56,56,58) , (8) Quarter, Waizayantar Road, South Okkalapa Township, Yangon.",
-			"16.8598919",
-			"96.1606782"
-			],
-			[
-			"HAGL(shopping center)",
-			"Room(316), HAGL Shopping Mall, Kaba Aye Road, Bahan Township, Yangon.",
-			"16.8243627",
-			"96.1556535" 
-			],
-			[
-			"Chan Aye Thar San",
-			"No.(70), (30) Street, Between (64x 65), Chan Aye Thar Zan Township, Mandalay.",
-			"21.9724778",
-			"96.1090061" 
-			],
-			[
-			"73 Ocean",
-			"Ocean Super Centre, Shop(66), Building(2), 73th Street, Between Thazin & Ngu War Street,Mingalar Mandalay Prestige Community,Chan Mya Tha Zi Township, Mandalay.",
-			"21.939055",
-			"96.0925356" 
-			],
-			[
-			"Pinlon Sittaung",
-			"Shop (07), City Mart Supermarket, Ground Floor, Corner of Pin lon & Sittaunt Road, North Dagon Township, Yangon.",
-			"16.8714808",
-			"96.1970324" 
-			],
-			[
-			"City Mart(19th Street)",
-			"Room(8), City Mart Supermarket, Ground Floor, 19th Street, Between 65th x 66th Street, AungMyayThaZan Township, Mandalay.",
-			"21.9917007",
-			"96.1176091" 
-			],
-			[
-			"Tha Pyay Gone",
-			"Near Tha Pyay Gone Market, Tha Pyay Gone Hill Top, Nay Pyi Taw.",
-			"19.7402329",
-			"96.1177538" 
-			],
-			[
-			"Capital Hypermarket",
-			"No.(116), Corner of YarzaThingaha Road & Diplomatic Road  (Infront of Hotel Zone), Nay Pyi Taw.",
-			"19.7101648",
-			"96.111998" 
-			],
-			[
-			"ocean Oattara Thiri",
-			"No.(9), Room(101), Ground Floor, Corner of Zay Ya Htar Ni Road & Mandalay Road, Oattarathiri Township, Nay Pyi Taw.",
-			"19.8159276",
-			"96.1534062" 
-			],
-			[
-			"Junction Center",
-			"Yan Aung Myin Quarter, Yarza Thingaha Road(Infront of Hotel Zone), Dadkhina Thiri Township, Nay Pyi Taw.",
-			"19.712671",
-			"96.1092521" 
-			],
-			[
-			"Pyin Oo Lwin",
-			"UG-25, Ruby Mart, Yangon - Mandalay Road, Pyin Oo Lwin.",
-			"22.03785",
-			"96.49012" 
-			],
-			[
-			"Myeik",
-			"No.(4), End of  Thae' Kwin Food Court, Kannar Street, Thaketa Quarter, Myeik.",
-			"12.46288",
-			"98.59766" 
-			],
-			[
-			"River View",
-			"Dawei Jetty, Corner of Strand Road and Dawei Bridge Street, Sit Kae Kone Township, Mawlamyaing.",
-			"16.4806378",
-			"97.6186802" 
-			]
+				[
+					"Yankin",
+					"Yankin",
+					"No.(10), Thit Sar Street, Yangon",
+					"16.7850553",
+					"96.1713889"
+				],
+				[
+					"Bahan",
+					"Bahan",
+					"No.(28), Saya San Road, Yangon",
+					"16.8165266",
+					"96.1584927"
+				],
+				[
+					"Thingangyun",
+					"Thingangyun",
+					"No.(A1-001), Zawtika Housing, Lay Daung Kan Road, Junction Zawana, Thingangyun Township, Yangon. ",
+					"16.8273102",
+					"96.1900128"
+				],
+				[
+					"Seik Kan Thar",
+					"Seik Kan Thar",
+					"No.(286), Seik Kan Thar Street, Yangon",
+					"16.7778753",
+					"96.1633018"
+				],
+				[
+					"Hledan",
+					"Hledan",
+					"No.(35), Insein Road(Near Hledan Junction), Yangon",
+					"16.8293883",
+					"96.1304298"
+				],
+				[
+					"MICT Park",
+					"MICT Park",
+					"Special Canteen, MICT Park, Universities of Hlaing Compus, Thamine College Street, Hlaing Township, Yangon",
+					"16.848417",
+					"96.1277625"
+				],
+				[
+					"8-Mile",
+					"8-Mile",
+					"No.(57), Room(G/A), Ground Floor, (Near 8-Mile Junction), Kyaik Wine Pagoda Road, Da Na Thiri Tower, Yangon",
+					"16.8646958",
+					"96.1413732"
+				],
+				[
+					"Thaketa",
+					"Thaketa",
+					"No.(14-E), Room(105), Ground Floor (Capital Hypermarket), Min Nandar Road, Dawpon Township, Yangon.",
+					"16.863855",
+					"96.184943"
+				],
+				[
+					"Thamine",
+					"Thamine",
+					"No.(114), 1st Floor, Corner of Yangon-Insein Main Road & Thamine Railway Station Street, Quarter (2), Yangon",
+					"16.8622747",
+					"96.1204606"
+				],
+				[
+					"Junction Square",
+					"Junction Square",
+					"Room(S-201), Between Pyay Road & Kyuntaw  Street, Near Agriculture (Bus Stop), Yangon",
+					"16.8173379",
+					"96.1314708"
+				],
+				[
+					"Race Course",
+					"Race Course",
+					"No.(24/26), Ground Floor, South Race Course Street, (Race Course Condo), Yangon",
+					"16.8145449",
+					"96.1704866"
+				],
+				[
+					"Wardan",
+					"Wardan",
+					"No.(790), Room(112/113), Ground Floor(Da Na Thiha Center), Corner of Bogyoke Aung San Road And Wardan Street, Yangon",
+					"16.7799303",
+					"96.1395473"
+				],
+				[
+					"Shwe Baho",
+					"Shwe Baho",
+					"No.(01-03), Building(B), Ground Floor, Myittar Yeik Mon Housing, Thamain Bayan Road, Yangon",
+					"16.8108089",
+					"96.1763427"
+				],
+				[
+					"Dagon Center II",
+					"Dagon Center II",
+					"No.(01-03), No.(3/4), 5th Floor, Pyay Road (Dagon Centre II), Yangon",
+					"16.8044691",
+					"96.1375809"
+				],
+				[
+					"Shwe Gone Daing Ocean",
+					"Shwe Gone Daing Ocean",
+					"Room(113), Ground Floor, Corner of Shwe Gone Daing Road and Banyardala Road, Yangon",
+					"16.8086491",
+					"96.1695309"
+				],
+				[
+					"People's Park",
+					"People's Park",
+					"Room(G-2), People's Park and Square (Myanmar Cultural Valley), U Wisara Road, Yangon",
+					"16.7980626",
+					"96.1451034"
+				],
+				[
+					"South Dagon",
+					"South Dagon",
+					"Room(3), City Mart Supermarket (South Dagon Branch), Corner of Hlawgar Road & Myeik Road, South Dagon Township, Yangon.",
+					"16.8481916",
+					"96.2364338"
+				],
+				[
+					"Star City",
+					"Star City",
+					"Building (A-1), Wing (C), Middle Room, Star City, Thanlyin, Yangon",
+					"16.7766434",
+					"96.2295053"
+				],
+				[
+					"Insein",
+					"Insein",
+					"No.(24), Lan Thit Road, Nant Thar Gone Quarter, Yangon",
+					"16.88951",
+					"96.10964"
+				],
+				[
+					"Junction Mawtin",
+					"Junction Mawtin",
+					"Room(403), Level(4), Maw Tin Tower, Corner of Lann Thit Street and Anawrahtar Road, Yangon",
+					"16.7774772",
+					"96.1421179"
+				],
+				[
+					"City Mart(Shwe Pin lone)",
+					"City Mart(Shwe Pin lone)",
+					"Room(4/5), City Mart Supermarket, Ground Floor, Bayintnaung Road, (25)Quarter,ShwePinLon Housing, North Dagon Township, Yangon.",
+					"16.8593",
+					"96.1994"
+				],
+				[
+					"City Mart(Ayarwon)",
+					"City Mart(Ayarwon)",
+					"Shop(06), No.(162/163), (7)Quater, Ayeyarwon Road, Myakwarnyo Housing, Thaketa Township, Yangon.",
+					"16.8044",
+					"96.20895"
+				],
+				[
+					"City Mart(waizayandar)",
+					"City Mart(waizayandar)",
+					"Shop (06), No (56,56,58) , (8) Quarter, Waizayantar Road, South Okkalapa Township, Yangon.",
+					"16.8598919",
+					"96.1606782"
+				],
+				[
+					"HAGL(shopping center)",
+					"HAGL(shopping center)",
+					"Room(316), HAGL Shopping Mall, Kaba Aye Road, Bahan Township, Yangon.",
+					"16.8243627",
+					"96.1556535" 
+				],
+				[
+					"Chan Aye Thar San",
+					"Chan Aye Thar San",
+					"No.(70), (30) Street, Between (64x 65), Chan Aye Thar Zan Township, Mandalay.",
+					"21.9724778",
+					"96.1090061" 
+				],
+				[
+					"73 Ocean",
+					"73 Ocean",
+					"Ocean Super Centre, Shop(66), Building(2), 73th Street, Between Thazin & Ngu War Street,Mingalar Mandalay Prestige Community,Chan Mya Tha Zi Township, Mandalay.",
+					"21.939055",
+					"96.0925356" 
+				],
+				[
+					"Pinlon Sittaung",
+					"Pinlon Sittaung",
+					"Shop (07), City Mart Supermarket, Ground Floor, Corner of Pin lon & Sittaunt Road, North Dagon Township, Yangon.",
+					"16.8714808",
+					"96.1970324" 
+				],
+				[
+					"City Mart(19th Street)",
+					"City Mart(19th Street)",
+					"Room(8), City Mart Supermarket, Ground Floor, 19th Street, Between 65th x 66th Street, AungMyayThaZan Township, Mandalay.",
+					"21.9917007",
+					"96.1176091" 
+				],
+				[
+					"Tha Pyay Gone",
+					"Tha Pyay Gone",
+					"Near Tha Pyay Gone Market, Tha Pyay Gone Hill Top, Nay Pyi Taw.",
+					"19.7402329",
+					"96.1177538" 
+				],
+				[
+					"Capital Hypermarket",
+					"Capital Hypermarket",
+					"No.(116), Corner of YarzaThingaha Road & Diplomatic Road  (Infront of Hotel Zone), Nay Pyi Taw.",
+					"19.7101648",
+					"96.111998" 
+				],
+				[
+					"Ocean Oattara Thiri",
+					"Ocean Oattara Thiri",
+					"No.(9), Room(101), Ground Floor, Corner of Zay Ya Htar Ni Road & Mandalay Road, Oattarathiri Township, Nay Pyi Taw.",
+					"19.8159276",
+					"96.1534062" 
+				],
+				[
+					"Junction Center",
+					"Junction Center",
+					"Yan Aung Myin Quarter, Yarza Thingaha Road(Infront of Hotel Zone), Dadkhina Thiri Township, Nay Pyi Taw.",
+					"19.712671",
+					"96.1092521" 
+				],
+				[
+					"River View",
+					"River View",
+					"Dawei Jetty, Corner of Strand Road and Dawei Bridge Street, Sit Kae Kone Township, Mawlamyaing.",
+					"16.4806378",
+					"97.6186802" 
+				],
+				[
+					"Monywa Ocean 1",
+					"Ocean",
+					"First Floot, Ocean Super Center, Corner of Bogyoke Aung San Road & Kan Narr Road, Monywa City, Mandalay.",
+					"22.103133",
+					"95.138977"
+				],
+				[
+					"Mawlamyaing Ocean1",
+					"Ocean",
+					"Ground Floor, Ocean Super center, Corner of Thein Gone Road & Taninthayi Road, Bokone Ward, Thalwin Garden, Mawlamyaing Upper Road, Mawlamyaing.",
+					"16.468931",
+					"97.626168"
+				],
+				[
+					"Bago Icon Shopping Mall",
+					"Icon Shopping Mall",
+					"First Floor, Icon Shopping Mall, Sar Tike, Yone Gyi Quarter, Yangon-Mandalay High Way Road, Bago.",
+					"17.334465",
+					"96.481979"
+				]
 			];
 			gmarkers = [];
 			if($(window).width() > 768 ){
@@ -273,9 +315,9 @@
 			}
 			var infowindow = new google.maps.InfoWindow();
 
-			var url = 'images/ykko-marker.png';
+			var url = 'images/ykko-marker.png?v=1';
 			if(window.devicePixelRatio > 1.5){
-				url = 'images/ykko-marker@2x.png';
+				url = 'images/ykko-marker@2x.png?v=1';
 			}
 
 			var image = {
@@ -287,7 +329,7 @@
 			function createMarker(latlng, html) {
 				var marker = new google.maps.Marker({
 	        //position: latlng,
-	        position: new google.maps.LatLng(locations[i][2], locations[i][3]),
+	        position: new google.maps.LatLng(locations[i][3], locations[i][4]),
 	       	//position:center,
 	  		//icon: 'images/ykko-marker.png',
 	  		icon:image,
@@ -304,7 +346,7 @@
 
 			for (var i = 0; i < locations.length; i++) {
 				gmarkers[locations[i][0]] =
-				createMarker(new google.maps.LatLng(locations[i][2], locations[i][3]), locations[i][0] + "<br>" + locations[i][1]);
+				createMarker(new google.maps.LatLng(locations[i][3], locations[i][4]), locations[i][1] + "<br>" + locations[i][2]);
 			}
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
@@ -351,8 +393,8 @@
 									<li><a href="#" id='city1'> Yangon</a></li>
 									<li><a href="#" id='city2'> Mandalay</a></li>
 									<li><a href="#" id='city3'> Nay Pyi Taw</a></li>
-									<li><a href="#" id='city4'> Pyin Oo Lwin</a></li>
-									<li><a href="#" id='city5'> Myeik</a></li>
+									<li><a href="#" id='city4'> Monywa</a></li>
+									<li><a href="#" id='city5'> Bago</a></li>
 									<li><a href="#" id='city6'> Mawlamyaing</a></li>
 								</ul>
 							</div>
@@ -681,24 +723,6 @@
 											</a>
 										</div>
 										<div class="col-md-4 col-xs-4 address-box">
-											<a href="javascript:google.maps.event.trigger(gmarkers['Pyin Oo Lwin'],'click');">
-												<h2> PYIN OO LWIN <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (RUBY MART)</i></h2>
-												<p> UG-25, Ruby Mart, Yangon - Mandalay Road, Pyin Oo Lwin.</p>
-												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118808</p>
-											</a>
-										</div>
-									</div><!--/row-fluid-->
-								</div><!--/item-->
-								<div class="item">
-									<div class="row">
-										<div class="col-md-4 col-xs-4 address-box">
-											<a href="javascript:google.maps.event.trigger(gmarkers['Myeik'],'click');">
-												<h2>MYEIK</h2>
-												<p> No. 4, End of Thae' Kwin Food Court, Kannar Street, Thaketa Quarter, Myeik.</p>
-												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118814</p>
-											</a>
-										</div>
-										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['River View'],'click');"> 
 												<h2> MAWLAMYAING <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (RIVER VIEW )</i></h2>
 												<p> Dawei Jetty, Corner of Strand Road and Dawei Bridge Street, Sit Kae Kone Township, Mawlamyaing.</p>
@@ -707,6 +731,33 @@
 										</div>
 									</div><!--/row-fluid-->
 								</div><!--/item-->
+
+								<div class="item">
+									<div class="row">
+										<div class="col-md-4 col-xs-4 address-box">
+											<a href="javascript:google.maps.event.trigger(gmarkers['Monywa Ocean 1'],'click');"> 
+												<h2> Monywa <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> ( Ocean )</i></h2>
+												<p> First Floot, Ocean Super Center, Corner of Bogyoke Aung San Road & Kan Narr Road, Monywa City, Mandalay.</p>
+												<!-- <p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118789</p> -->
+											</a>
+										</div>
+										<div class="col-md-4 col-xs-4 address-box">
+											<a href="javascript:google.maps.event.trigger(gmarkers['Mawlamyaing Ocean1'],'click');">
+												<h2> MAWLAMYAING <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> ( Ocean)</i></h2>
+												<p>Ground Floor, Ocean Super center, Corner of Thein Gone Road & Taninthayi Road, Bokone Ward, Thalwin Garden, Mawlamyaing Upper Road, Mawlamyaing.</p>
+												<!-- <p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118793</p> -->
+											</a>
+										</div>
+										<div class="col-md-4 col-xs-4 address-box">
+											<a href="javascript:google.maps.event.trigger(gmarkers['Bago Icon Shopping Mall'],'click');"> 
+												<h2> Bago <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> ( Icon Shopping Mall )</i></h2>
+												<p> First Floor, Icon Shopping Mall, Sar Tike, Yone Gyi Quarter, Yangon-Mandalay High Way Road, Bago.</p>
+												<!-- <p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p> -->
+											</a>
+										</div>
+									</div><!--/row-fluid-->
+								</div><!--/item-->
+
 							</div><!--/carousel-inner-->
 							<a class="left carousel-control arrow-left" href="#myCarouselall" data-slide="prev"><img src="images/left-arrow.png" onMouseOver="this.src='images/left-arrow-hover.png'" onMouseOut="this.src='images/left-arrow.png'"></a>
 							<a class="right carousel-control arrow-right pull-right" href="#myCarouselall" data-slide="next"><img src="images/right-arrow.png" onMouseOver="this.src='images/right-arrow-hover.png'" onMouseOut="this.src='images/right-arrow.png'"></a>
@@ -1030,6 +1081,7 @@
 						<a class="left carousel-control arrow-left" href="#myCarousel2" data-slide="prev"><img src="images/left-arrow.png" onMouseOver="this.src='images/left-arrow-hover.png'" onMouseOut="this.src='images/left-arrow.png'"></a>
 						<a class="right carousel-control arrow-right pull-right" href="#myCarousel2" data-slide="next"><img src="images/right-arrow.png" onMouseOver="this.src='images/right-arrow-hover.png'" onMouseOut="this.src='images/right-arrow.png'"></a>
 					</div><!--/myCarousel-->
+
 					<!-- **********************///////// city4 ////////////// *************** -->
 					<div id="myCarousel" class="carousel slide location-2-slider city4-data">
 						<!-- Carousel items -->
@@ -1037,10 +1089,10 @@
 							<div class="item active">
 								<div class="row">
 									<div class="col-md-4 col-xs-4 address-box">
-										<a href="javascript:google.maps.event.trigger(gmarkers['Pyin Oo Lwin'],'click');">
-											<h2> PYIN OO LWIN <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (RUBY MART)</i></h2>
-											<p> UG-25, Ruby Mart, Yangon - Mandalay Road, Pyin Oo Lwin.</p>
-											<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118808</p>
+										<a href="javascript:google.maps.event.trigger(gmarkers['Monywa Ocean 1'],'click');"> 
+											<h2> Ocean </h2>
+											<p> First Floot, Ocean Super Center, Corner of Bogyoke Aung San Road & Kan Narr Road, Monywa City, Mandalay.</p>
+											<!-- <p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118789</p> -->
 										</a>
 									</div>
 								</div><!--/row-fluid-->
@@ -1056,15 +1108,14 @@
 							<div class="item active">
 								<div class="row">
 									<div class="col-md-4 col-xs-4 address-box">
-										<a href="javascript:google.maps.event.trigger(gmarkers['Myeik'],'click');">
-											<h2>MYEIK</h2>
-											<p> No. 4, End of  Thae' Kwin Food Court, Kannar Street, Thaketa Quarter, Myeik.</p>
-											<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118814</p>
+										<a href="javascript:google.maps.event.trigger(gmarkers['Bago Icon Shopping Mall'],'click');"> 
+											<h2> Icon Shopping Mall </h2>
+											<p> First Floor, Icon Shopping Mall, Sar Tike, Yone Gyi Quarter, Yangon-Mandalay High Way Road, Bago.</p>
+											<!-- <p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p> -->
 										</a>
 									</div>
 								</div><!--/row-fluid-->
 							</div><!--/item-->
-
 						</div><!--/carousel-inner-->
 
 					</div><!--/myCarousel-->
@@ -1077,9 +1128,16 @@
 								<div class="row">
 									<div class="col-md-4 col-xs-4 address-box">
 										<a href="javascript:google.maps.event.trigger(gmarkers['River View'],'click');"> 
-											<h2> MAWLAMYAING <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (RIVER VIEW )</i></h2>
+											<h2> RIVER VIEW </h2>
 											<p> Dawei Jetty, Corner of Strand Road and Dawei Bridge Street, Sit Kae Kone Township, Mawlamyaing.</p>
 											<p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p>
+										</a>
+									</div>
+									<div class="col-md-4 col-xs-4 address-box">
+										<a href="javascript:google.maps.event.trigger(gmarkers['Mawlamyaing Ocean1'],'click');">
+											<h2> Ocean </h2>
+											<p>Ground Floor, Ocean Super center, Corner of Thein Gone Road & Taninthayi Road, Bokone Ward, Thalwin Garden, Mawlamyaing Upper Road, Mawlamyaing.</p>
+											<!-- <p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118793</p> -->
 										</a>
 									</div>
 								</div><!--/row-fluid-->
@@ -1588,8 +1646,8 @@
 							<li role="presentation"><a role="menuitem" href="#" id="mb-city1">Yangon</a></li>
 							<li role="presentation"><a role="menuitem" href="#" id="mb-city2">Mandalay</a></li>
 							<li role="presentation"><a role="menuitem" href="#" id="mb-city3">Nay Pyi Taw</a></li>
-							<li role="presentation"><a role="menuitem" href="#" id="mb-city4">Pyin Oo Lwin</a></li>
-							<li role="presentation"><a role="menuitem" href="#" id="mb-city5">Myeik</a></li>
+							<li role="presentation"><a role="menuitem" href="#" id="mb-city4">Monywa</a></li>
+							<li role="presentation"><a role="menuitem" href="#" id="mb-city5">Bago</a></li>
 							<li role="presentation"><a role="menuitem" href="#" id="mb-city6">Mawlamyaing</a></li>
 						</ul>
 					</div>
@@ -2225,52 +2283,48 @@
 						</div>
 					</div>
 				</div> <!-- mb city 3 -->
-				<!-- * -->
+
 				<div class="mb-city4-data">
-					<div class="panel-group" id="accordion3">
+					<div class="panel-group" id="accordion5">
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion3" href="#collapsepyinOne">
-										PYIN OO LWIN <i style="font-weight:400; font-size:50%; letter-spacing:1px;"> (RUBY MART)</i>
+									<a data-toggle="collapse" data-parent="#accordion5" href="#collapsemawOne">
+										Ocean <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(Monywa)</i>
 										<span class="glyphicon glyphicon-minus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
 									</a>
-
 								</h2>
 							</div>
-							<div id="collapsepyinOne" class="panel-collapse collapse in">
+							<div id="collapsemawOne" class="panel-collapse collapse in">
 								<div class="panel-body">
-									<p> UG-25, Ruby Mart, Yangon - Mandalay Road, Pyin Oo Lwin.</p>
-									<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118808</p>
-									<div class="view-map"><span><a href="https://www.google.com/maps/place/Ruby+Mart/@22.03785,96.49012,17z/data=!4m2!3m1!1s0x0000000000000000:0x9f0fd0bb0ec9e335" target="_blank"> View Map</a> </span> </div>
+									<p> First Floot, Ocean Super Center, Corner of Bogyoke Aung San Road & Kan Narr Road, Monywa City, Mandalay.</p>
+									<!-- <p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p> -->
+									<div class="view-map"><span> <a href="https://www.google.com/maps/@22.103133,95.138977,18z" target="_blank"> View Map</a> </span> </div>
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div> <!-- mb city 4 -->
 
 				<div class="mb-city5-data">
-					<div class="panel-group" id="accordion4">
+					<div class="panel-group" id="accordion5">
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion4" href="#collapsenayOne">
-										MYEIK
+									<a data-toggle="collapse" data-parent="#accordion5" href="#collapsemawOne">
+										Icon Shopping Mall <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(Bago)</i>
 										<span class="glyphicon glyphicon-minus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
 									</a>
-
 								</h2>
 							</div>
-							<div id="collapsenayOne" class="panel-collapse collapse in">
+							<div id="collapsemawOne" class="panel-collapse collapse in">
 								<div class="panel-body">
-									<p> No.(4), End of  Thae' Kwin Food Court, Kannar Street, Thaketa Quarter, Myeik.</p>
-									<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118814</p>
-									<div class="view-map"><span><a href="https://www.google.com/maps/@12.46288,98.59766,17z" target="_blank"> View Map</a> </span> </div>
+									<p> First Floor, Icon Shopping Mall, Sar Tike, Yone Gyi Quarter, Yangon-Mandalay High Way Road, Bago.</p>
+									<!-- <p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p> -->
+									<div class="view-map"><span> <a href="https://www.google.com/maps/@17.334465,96.481979,18z" target="_blank"> View Map</a> </span> </div>
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div> <!-- mb city 5 -->
 
@@ -2290,6 +2344,23 @@
 									<p> Dawei Jetty, Corner of Strand Road and Dawei Bridge Street, Sit Kae Kone Township, Mawlamyaing.</p>
 									<p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p>
 									<div class="view-map"><span><a href="https://www.google.com/maps/place/YKKO/@16.480823,97.618707,17z/data=!3m1!4b1!4m2!3m1!1s0x30c2a8af107140b9:0xf91aba2cbe82ce8b" target="_blank"> View Map</a> </span> </div>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h2 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion5" href="#collapsemawOne">
+										Ocean <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(MAWLAMYAING)</i>
+										<span class="glyphicon glyphicon-minus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
+									</a>
+								</h2>
+							</div>
+							<div id="collapsemawOne" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<p> Ground Floor, Ocean Super center, Corner of Thein Gone Road & Taninthayi Road, Bokone Ward, Thalwin Garden, Mawlamyaing Upper Road, Mawlamyaing.</p>
+									<!-- <p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p> -->
+									<div class="view-map"><span><a href="https://www.google.com/maps/@16.468931,97.626168,17z" target="_blank"> View Map</a> </span> </div>
 								</div>
 							</div>
 						</div>
