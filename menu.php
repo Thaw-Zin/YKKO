@@ -774,6 +774,127 @@
 					</div>
 				</div>
 
+				<div class="row menus-item-row">
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Apple.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Apple@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Apple Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Avocado.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Avocado@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Avocado Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Mixed Berry Smoothies.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Mixed Berry Smoothies@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Strawberry Smoothies Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Suger cane.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Suger cane@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Suger cane Juice</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="row menus-item-row">
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Back Jelly.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Back Jelly@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Back Jelly Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Sunkist.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Sunkist@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Sunkist Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Soda-Kiwi.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Soda-Kiwi@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Soda Kiwi Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Soda Blueberry.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Soda Blueberry@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Soda Blueberry Juice</h3>
+						</div>
+					</div>
+				</div> 
+				<div class="row menus-item-row">
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Fruit Cocktail.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Fruit Cocktail@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Fruit Cocktail Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Pineapple.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Pineapple@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Pineapple Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Prune.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Prune@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Prune Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Lime.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Lime@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Lime Juice</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row menus-item-row">
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Orange.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Orange@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Orange Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Strawberry Juce.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Strawberry Juce@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Strawberry Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Sweet lime.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Sweet line@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Sweet lime Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Tamarind.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Tamarind@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Tamarind Juice</h3>
+						</div>
+					</div>
+				</div> 
+				<div class="row menus-item-row">
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Watermelon.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Watermelon@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Watermelon Juice</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 menus-item">
+						<img src="images/menus/Fresh-Fruit-Juice/Papaya.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Papaya@2x.png" class="img-responsive">
+						<div class="food-des">
+							<h3> Papaya Juice</h3>
+						</div>
+					</div>
+					
+				</div>
+
 			</div> 
     		<!-- //////////////////    NEWS    ///////////////// -->
     		<div class="menu-container container" id="new">
