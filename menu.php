@@ -1447,14 +1447,14 @@
 							<h3> Mashed Potato</h3>
 						</div>
 					</div> 
-				</div>
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Grill/Grilled-Mutton.png" data-at2x="images/menus/Grill/retina/Grilled-Mutton@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Grilled Mutton</h3>
 						</div>
 					</div>
+				</div>
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Grill/Grill Pork Ball.png" data-at2x="images/menus/Grill/retina/Grill Pork Ball@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -1467,22 +1467,20 @@
 							<h3> Grilled Fish Ball</h3>
 						</div>
 					</div>
-					
-				</div>
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Grill/Grill Potato.png" data-at2x="images/menus/Grill/retina/Grill Potato@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Grilled Potato</h3>
 						</div>
 					</div>
-					
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Grill/Lady Finger.png" data-at2x="images/menus/Grill/retina/Lady Finger@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Grilled Lady Finger</h3>
 						</div>
 					</div>
+				</div>
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Grill/Grill Garlic.png" data-at2x="images/menus/Grill/retina/Grill Garlic@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -1495,9 +1493,6 @@
 							<h3> Grilled Prawn</h3>
 						</div>
 					</div>
-				</div>
-				
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Grill/Fried-Wanton.png" data-at2x="images/menus/Grill/retina/Fried-Wanton@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -1510,6 +1505,9 @@
 							<h3> Fried Potato</h3>
 						</div>
 					</div>
+				</div>
+				
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Grill/Grill Corn.png" data-at2x="images/menus/Grill/retina/Grill Corn@2x.png" class="img-responsive">
 						<div class="food-des">

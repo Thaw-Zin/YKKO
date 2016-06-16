@@ -1,8 +1,0 @@
-Options +MultiViews
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ /index.php [L]
-RewriteCond %{HTTP_HOST} ^ykko.com.mm [NC]
-RewriteRule ^(.*)$ http://www.ykko.com.mm/$1 [L,R=301,NC]
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
