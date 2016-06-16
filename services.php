@@ -37,7 +37,7 @@
 		<!-- /////  css file //// -->
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css?v=1" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"> 
 		<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
 		<script>
@@ -143,7 +143,7 @@
 							</div>
 						</div>
 						<div class="col-md-12">
-							<img src="images/delivery.jpg" class="img-responsive round5">
+							<img src="images/delivery.jpg" class="fwid round5">
 						</div>
 					</div>
 				</div>	

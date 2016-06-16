@@ -2623,3 +2623,7 @@ and (max-width : 767px)
 .round5{
 	border-radius: 5px;
 }
+
+.fwid{
+	width: 100%;
+}
