@@ -118,7 +118,7 @@
 			<div class="container main-footer">
 				<div class="row footer">
 					<div class="col-md-6 col-xs-6">
-						<p>&copy 2015 YKKO GROUP OF COMPANIES DESIGNED BY PIXEL DIRECTS</p>
+						<p> &copy 2015 YKKO GROUP OF COMPANIES DESIGNED BY <a href="http://pixeldirects.com" target="new" title="Pixel Directs - Cretive Agency" id="toPixie">PIXEL DIRECTS</a></p>
 					</div>
 					<div class="col-md-6 col-xs-6"> 
 						<p style="text-align:right;"><a href="https://www.facebook.com/YKKOmyanmar" target="_blank" class="facebook">JOIN US ON FACEBOOK!</a></p>

@@ -2627,3 +2627,15 @@ and (max-width : 767px)
 .fwid{
 	width: 100%;
 }
+
+#toPixie,
+#toPixie:focus,
+#toPixie:active{
+	color: #999999;
+	text-decoration: none;
+}
+
+#toPixie:hover{
+	color: #fef200;
+	text-decoration: none;
+}	
