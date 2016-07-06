@@ -47,7 +47,7 @@
         width: '100%',
         frameborder:'0',
         allowallowfullscreen:true,
-        videoId: 'UYT_w248PB8',  // youtube video id
+        videoId: 'SmEKTd99-kA',  // youtube video id
         //videoId: 'xj3tg0j-lhY',  // youtube video id
         playerVars: {
             'autoplay': 0,
@@ -138,7 +138,7 @@ $(document).on('click','#english',function(){
 						</div>
 						<div class="col-md-6">
 							<h2> OUR MISSION</h2>
-							<p> To provide customers with 100% based on the foundational principles operating on '3' foundational principles of foundation: Quality, Cleanliness and Service.</p>
+							<p> To provide customers with 100% satisfaction operating on '3' foundational principles of the organization: Quality, Cleanliness and Service.</p>
 						</div>
 					</div>
 				</div>

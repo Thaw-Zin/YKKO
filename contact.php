@@ -37,7 +37,7 @@
 		<!-- /////  css file //// -->
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css?v=s1" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"> 
 		<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
 		
@@ -104,9 +104,11 @@
 							<h1> MAIN OFFICE</h1>
 							<p> No.(24/26), 6th Floor, South Race Course Street,<br>Race Course Condominium, Tamwe Township,<br>Yangon, Myanmar</p>
 							<p> Office Hour : <br> 9:00 am - 5:30 pm</p>
-							<p> Phone :<br>+951 401192, +951 401179 </p>
+							<p> Office Phone :<br>+951 401192, +951 401179 </p>
+							<p> Hotline :<br/>+959 440 133 330</p>
 							<p> Fax : <br/>+951 401263</p>
-							<p> Email :<br><a href="mailto:headoffice@ykko.com.mm?Subject=Hello YKKO"> headoffice@ykko.com.mm</a></p>
+							<p> Email :<br><a href="mailto:marketing@ykko.com.mm?Subject=Hello YKKO"> marketing
+								@ykko.com.mm</a></p>
 						</div>
 						<div class="col-md-6" style="padding-right:0px;">
 							<div id="ContactMap"></div>
