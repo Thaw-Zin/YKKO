@@ -53,7 +53,7 @@
             'autoplay': 0,
             'rel': 0,
             'hd': 1,
-            'controls': 0,
+            'controls': 1,
             'autohide': 1,
             'showinfo': 0
         },
