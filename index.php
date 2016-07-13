@@ -27,7 +27,7 @@
     <link rel="canonical" href="http://www.ykko.com.mm">
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css?v=1" type="text/css" />
     <!-- Custom CSS -->
     <link href="css/full-slider.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>  
@@ -70,6 +70,13 @@
 					<div class="col-md-6 col-xs-6"> 
 						<p style="text-align:right;"> <a href="https://www.facebook.com/YKKOmyanmar" target="_blank" class="facebook">JOIN US ON FACEBOOK! </a> </p>
 					</div>
+				</div>
+				<div id="adsBanner">
+					<a href="https://www.shop.com.mm/ykko/?utm_source=facebook&utm_medium=community&utm_campaign=MM-%5B%5D%20YKKO%20Website" rel="nofollow" target="_new">
+						<img src="images/ads/adsbannerDesktop.jpg" class="visible-md visible-lg"/>
+						<img src="images/ads/adsbannerMobile.jpg" class="visible-xs visible-sm"/>
+					</a>
+					<div id="closeBanner"><span id="closenow">&times;</span></div>
 				</div>
 			</div>
 	        <!-- Indicators -->
@@ -158,6 +165,11 @@
 			}
 		</script>
 	   	<script type="text/javascript" src="js/retina.min.js"></script>
+	   	<script>
+	   		$("#closenow").on("click", function(){
+	   			$("#adsBanner").remove();
+	   		});
+	   	</script>
 </body>
 
 </html>
