@@ -155,13 +155,6 @@
 					"96.1451034"
 				],
 				[
-					"South Dagon",
-					"South Dagon",
-					"Room(3), City Mart Supermarket (South Dagon Branch), Corner of Hlawgar Road & Myeik Road, South Dagon Township, Yangon.",
-					"16.8481916",
-					"96.2364338"
-				],
-				[
 					"Star City",
 					"Star City",
 					"Building (A-1), Wing (C), Middle Room, Star City, Thanlyin, Yangon",
@@ -190,8 +183,8 @@
 					"96.1994"
 				],
 				[
-					"City Mart(Ayarwon)",
-					"City Mart(Ayarwon)",
+					"City Mart(Ayarwun)",
+					"City Mart(Ayarwun)",
 					"Shop(06), No.(162/163), (7)Quater, Ayeyarwon Road, Myakwarnyo Housing, Thaketa Township, Yangon.",
 					"16.8044",
 					"96.20895"
@@ -420,7 +413,6 @@
 									<li><a href="#" id='township12'> South Okkalapa</a></li>
 									<li><a href="#" id='township13'> Dagon</a></li>
 									<li><a href="#" id='township14'> North Dagon</a></li>
-									<li><a href="#" id='township15'> South Dagon</a></li>
 									<li><a href="#" id='township16'> SitKae Kone</a></li>
 									<li><a href="#" id='township17'> ChanAye TharZan</a></li>
 									<li><a href="#" id='township18'> Oattarathiri</a></li>
@@ -584,24 +576,12 @@
 											</a>
 										</div>
 										<div class="col-md-4 col-xs-4 address-box">
-											<a href="javascript:google.maps.event.trigger(gmarkers['South Dagon'],'click');">
-												<h2> SOUTH DAGON <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (CITY MART)</i></h2>
-												<p>Room (3), City Mart Supermarket (South Dagon Branch), Corner of Hlawgar Road & Myeik Road, South Dagon Township, Yangon.</p>
-												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118773</p>
-											</a>
-										</div>
-										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Star City'],'click');">
 												<h2> STAR CITY</h2>
 												<p> Building (A-1), Wing (C), Middle Room,<br> Star City, Thanlyin, Yangon.</p>
 												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118759</p>
 											</a>
 										</div>
-									</div><!--/row-fluid-->
-								</div><!--/item-->
-
-								<div class="item">
-									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Insein'],'click');">
 												<h2> INSEIN</h2>
@@ -609,6 +589,11 @@
 												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118779</p>
 											</a>
 										</div>
+									</div><!--/row-fluid-->
+								</div><!--/item-->
+
+								<div class="item">
+									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Junction Mawtin'],'click');">
 												<h2> JUNCTION MAWTIN</h2>
@@ -623,18 +608,18 @@
 												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118785</p>
 											</a>
 										</div>
+										<div class="col-md-4 col-xs-4 address-box">
+											<a href="javascript:google.maps.event.trigger(gmarkers['City Mart(Ayarwun)'],'click');">
+												<h2> AYARWUN <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (CITY MART)</i></h2>
+												<p> Shop (06), No. 162/163, (7) Quater,<br> Ayeyarwon Road, Myakwarnyo Housing,<br> Thaketa Township, Yangon.</p>
+												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118806</p>
+											</a>
+										</div>
 									</div><!--/row-fluid-->
 								</div><!--/item-->
 
 								<div class="item">
 									<div class="row">
-										<div class="col-md-4 col-xs-4 address-box">
-											<a href="javascript:google.maps.event.trigger(gmarkers['City Mart(Ayarwon)'],'click');">
-												<h2> AYARMON <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (CITY MART)</i></h2>
-												<p> Shop (06), No. 162/163, (7) Quater,<br> Ayeyarwon Road, Myakwarnyo Housing,<br> Thaketa Township, Yangon.</p>
-												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118806</p>
-											</a>
-										</div>
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['City Mart(waizayandar)'],'click');">
 												<h2> WAIZAYANDAR <i style="font-weight:400; font-size:50%; letter-spacing:1px;"> (CITY MART)</i></h2>
@@ -649,11 +634,6 @@
 												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118818</p>
 											</a>
 										</div>
-									</div><!--/row-fluid-->
-								</div><!--/item-->
-
-								<div class="item">
-									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Pinlon Sittaung'],'click');"> 
 												<h2> NORTH PIN LONE SIT TAUNG</h2>
@@ -661,6 +641,11 @@
 												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118820</p>
 											</a>
 										</div> 
+									</div><!--/row-fluid-->
+								</div><!--/item-->
+
+								<div class="item">
+									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Chan Aye Thar San'],'click');"> 
 												<h2> CHAN AYE THAR SAN </h2>
@@ -676,11 +661,6 @@
 												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118797</p>
 											</a>
 										</div>
-									</div><!--/row-fluid-->
-								</div><!--/item-->
-
-								<div class="item">
-									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['City Mart(19th Street)'],'click');">
 												<h2> CITY MART <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (19TH STREET)</i></h2>
@@ -688,6 +668,11 @@
 												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118802</p>
 											</a>
 										</div>
+									</div><!--/row-fluid-->
+								</div><!--/item-->
+
+								<div class="item">
+									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Tha Pyay Gone'],'click');">
 												<h2> THA PYAY GONE</h2>
@@ -703,11 +688,6 @@
 												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118791</p>
 											</a>
 										</div>
-									</div><!--/row-fluid-->
-								</div><!--/item-->
-
-								<div class="item">
-									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['ocean Oattara Thiri'],'click');"> 
 												<h2> OCEAN OATTARATHIRI </h2>
@@ -715,6 +695,11 @@
 												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118789</p>
 											</a>
 										</div>
+									</div><!--/row-fluid-->
+								</div><!--/item-->
+
+								<div class="item">
+									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Junction Center'],'click');">
 												<h2 class=""> JUNCTION CENTER</h2>
@@ -729,11 +714,6 @@
 												<p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p>
 											</a>
 										</div>
-									</div><!--/row-fluid-->
-								</div><!--/item-->
-
-								<div class="item">
-									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Monywa Ocean 1'],'click');"> 
 												<h2> Monywa <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> ( Ocean )</i></h2>
@@ -741,6 +721,11 @@
 												<!-- <p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118789</p> -->
 											</a>
 										</div>
+									</div><!--/row-fluid-->
+								</div><!--/item-->
+
+								<div class="item">
+									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Mawlamyaing Ocean1'],'click');">
 												<h2> MAWLAMYAING <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> ( Ocean)</i></h2>
@@ -959,8 +944,8 @@
 									<div class="row">
 										
 										<div class="col-md-4 col-xs-4 address-box">
-											<a href="javascript:google.maps.event.trigger(gmarkers['City Mart(Ayarwon)'],'click');">
-												<h2> AYARMON <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (CITY MART)</i></h2>
+											<a href="javascript:google.maps.event.trigger(gmarkers['City Mart(Ayarwun)'],'click');">
+												<h2> AYARWUN <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (CITY MART)</i></h2>
 												<p> Shop (06), No. 162/163, (7) Quater,<br> Ayeyarwon Road, Myakwarnyo Housing,<br> Thaketa Township, Yangon.</p>
 									        	<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118806</p>
 									        </a>
@@ -1377,8 +1362,8 @@
 							<div class="item active">
 								<div class="row">
 									<div class="col-md-4 col-xs-4 address-box">
-										<a href="javascript:google.maps.event.trigger(gmarkers['City Mart(Ayarwon)'],'click');">
-											<h2> AYARMON <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (CITY MART)</i></h2>
+										<a href="javascript:google.maps.event.trigger(gmarkers['City Mart(Ayarwun)'],'click');">
+											<h2> AYARWUN <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (CITY MART)</i></h2>
 											<p> Shop (06), No. 162/163, (7) Quater,<br> Ayeyarwon Road, Myakwarnyo Housing,<br> Thaketa Township, Yangon.</p>
 							          		<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118806</p>
 							          	</a>
@@ -1984,24 +1969,6 @@
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTen6" style="display:block; width:100%;">
-										SOUTH DAGON <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(CITY MART)</i>
-										<span class="glyphicon glyphicon-plus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
-									</a>
-								</h2>
-							</div>
-							<div id="collapseTen6" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Room (3), City Mart Supermarket (South Dagon Branch), Corner of Hlawgar Road & Myeik Road, South Dagon Township, Yangon.</p>
-									<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118773</p>
-									<div class="view-map"><span><a href="https://www.google.com/maps/place/City+Mart/@16.8481916,96.2364338,17z/data=!4m2!3m1!1s0x30c1929dcc110987:0x52ecc8824d5364db" target="_blank"> View Map</a> </span> </div>
-								</div>
-							</div>
-						</div>
-
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h2 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTen7" style="display:block; width:100%;">
 										STAR CITY
 										<span class="glyphicon glyphicon-plus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
@@ -2075,7 +2042,7 @@
 							<div class="panel-heading">
 								<h2 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTen11" style="display:block; width:100%;">
-										AYARMON <i style="font-weight:400; font-size:50%; letter-spacing:1px;"> (CITY MART)</i>
+										AYARWUN <i style="font-weight:400; font-size:50%; letter-spacing:1px;"> (CITY MART)</i>
 										<span class="glyphicon glyphicon-plus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
 									</a>
 								</h2>
@@ -2702,7 +2669,7 @@
 							<div class="panel-heading">
 								<h2 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion14" href="#collapsetown9One">
-										AYARMON <i style="font-weight:400; font-size:50%; letter-spacing:1px;"> (CITY MART)</i>
+										AYARWUN <i style="font-weight:400; font-size:50%; letter-spacing:1px;"> (CITY MART)</i>
 										<span class="glyphicon glyphicon-minus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
 									</a>
 
@@ -2869,28 +2836,6 @@
 
 					</div>
 				</div> <!-- mb Township14 -->
-
-				<div class="mb-township15-data">
-					<div class="panel-group" id="accordion20">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion20" href="#collapsetown15One">
-										SOUTH DAGON <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(CITY MART)</i>
-										<span class="glyphicon glyphicon-minus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
-									</a>
-								</h2>
-							</div>
-							<div id="collapsetown15One" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<p>Room (3), City Mart Supermarket (South Dagon Branch), Corner of Hlawgar Road & Myeik Road, South Dagon Township, Yangon.</p>
-									<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118773</p>
-									<div class="view-map"><span><a href="https://www.google.com/maps/place/City+Mart/@16.8481916,96.2364338,17z/data=!4m2!3m1!1s0x30c1929dcc110987:0x52ecc8824d5364db" target="_blank"> View Map </a> </span> </div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> <!-- mb Township15 -->
 
 				<div class="mb-township16-data">
 					<div class="panel-group" id="accordion21">
