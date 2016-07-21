@@ -709,14 +709,14 @@
 										</div>
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['River View'],'click');"> 
-												<h2> MAWLAMYAING <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (RIVER VIEW )</i></h2>
+												<h2> MAWLAMYAING <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (RIVER VIEW)</i></h2>
 												<p> Dawei Jetty, Corner of Strand Road and Dawei Bridge Street, Sit Kae Kone Township, Mawlamyaing.</p>
 												<p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p>
 											</a>
 										</div>
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Monywa Ocean 1'],'click');"> 
-												<h2> Monywa <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> ( Ocean )</i></h2>
+												<h2> MONYWA <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (OCEAN)</i></h2>
 												<p> First Floot, Ocean Super Center, Corner of Bogyoke Aung San Road & Kan Narr Road, Monywa City, Mandalay.</p>
 												<!-- <p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118789</p> -->
 											</a>
@@ -728,14 +728,14 @@
 									<div class="row">
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Mawlamyaing Ocean1'],'click');">
-												<h2> MAWLAMYAING <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> ( Ocean)</i></h2>
+												<h2> MAWLAMYAING <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (OCEAN)</i></h2>
 												<p>Ground Floor, Ocean Super center, Corner of Thein Gone Road & Taninthayi Road, Bokone Ward, Thalwin Garden, Mawlamyaing Upper Road, Mawlamyaing.</p>
 												<!-- <p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118793</p> -->
 											</a>
 										</div>
 										<div class="col-md-4 col-xs-4 address-box">
 											<a href="javascript:google.maps.event.trigger(gmarkers['Bago Icon Shopping Mall'],'click');"> 
-												<h2> Bago <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> ( Icon Shopping Mall )</i></h2>
+												<h2> BAGO <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (ICON SHOPPING MALL)</i></h2>
 												<p> First Floor, Icon Shopping Mall, Sar Tike, Yone Gyi Quarter, Yangon-Mandalay High Way Road, Bago.</p>
 												<!-- <p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p> -->
 											</a>
@@ -1075,7 +1075,7 @@
 								<div class="row">
 									<div class="col-md-4 col-xs-4 address-box">
 										<a href="javascript:google.maps.event.trigger(gmarkers['Monywa Ocean 1'],'click');"> 
-											<h2> Ocean </h2>
+											<h2> OCEAN </h2>
 											<p> First Floot, Ocean Super Center, Corner of Bogyoke Aung San Road & Kan Narr Road, Monywa City, Mandalay.</p>
 											<!-- <p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118789</p> -->
 										</a>
@@ -1094,7 +1094,7 @@
 								<div class="row">
 									<div class="col-md-4 col-xs-4 address-box">
 										<a href="javascript:google.maps.event.trigger(gmarkers['Bago Icon Shopping Mall'],'click');"> 
-											<h2> Icon Shopping Mall </h2>
+											<h2> ICON SHOPPING MALL </h2>
 											<p> First Floor, Icon Shopping Mall, Sar Tike, Yone Gyi Quarter, Yangon-Mandalay High Way Road, Bago.</p>
 											<!-- <p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p> -->
 										</a>
@@ -1120,7 +1120,7 @@
 									</div>
 									<div class="col-md-4 col-xs-4 address-box">
 										<a href="javascript:google.maps.event.trigger(gmarkers['Mawlamyaing Ocean1'],'click');">
-											<h2> Ocean </h2>
+											<h2> OCEAN </h2>
 											<p>Ground Floor, Ocean Super center, Corner of Thein Gone Road & Taninthayi Road, Bokone Ward, Thalwin Garden, Mawlamyaing Upper Road, Mawlamyaing.</p>
 											<!-- <p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118793</p> -->
 										</a>
@@ -1477,23 +1477,6 @@
 							</div><!--/item-->
 
 
-						</div><!--/carousel-inner-->
-					</div><!--/myCarousel-->
-					<!-- ///////////// ============ township data 15 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township15-data">
-						<!-- Carousel items -->
-						<div class="carousel-inner location-2-slide-container">
-							<div class="item active">
-								<div class="row">
-									<div class="col-md-4 col-xs-4 address-box">
-										<a href="javascript:google.maps.event.trigger(gmarkers['South Dagon'],'click');">
-											<h2> SOUTH DAGON <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (CITY MART)</i></h2>
-											<p>Room (3), City Mart Supermarket (South Dagon Branch), Corner of Hlawgar Road & Myeik Road, South Dagon Township, Yangon.</p>
-											<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118773</p>
-										</a>
-									</div>
-								</div><!--/row-fluid-->
-							</div><!--/item-->
 						</div><!--/carousel-inner-->
 					</div><!--/myCarousel-->
 
@@ -2257,7 +2240,7 @@
 							<div class="panel-heading">
 								<h2 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion5" href="#collapsemawOne">
-										Ocean <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(Monywa)</i>
+										OCEAN <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(MONYWA)</i>
 										<span class="glyphicon glyphicon-minus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
 									</a>
 								</h2>
@@ -2279,7 +2262,7 @@
 							<div class="panel-heading">
 								<h2 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion5" href="#collapsemawOne">
-										Icon Shopping Mall <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(Bago)</i>
+										ICON SHOPPING MALL <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(BAGO)</i>
 										<span class="glyphicon glyphicon-minus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
 									</a>
 								</h2>
@@ -2318,7 +2301,7 @@
 							<div class="panel-heading">
 								<h2 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion5" href="#collapsemawOne">
-										Ocean <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(MAWLAMYAING)</i>
+										OCEAN <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(MAWLAMYAING)</i>
 										<span class="glyphicon glyphicon-minus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
 									</a>
 								</h2>
