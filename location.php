@@ -28,8 +28,8 @@
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/test.js"></script>
-	<script type="text/javascript" src="js/myapplication.js"></script>
+	<script type="text/javascript" src="js/test.js?v=1"></script>
+	<script type="text/javascript" src="js/myapplication.js?v=1"></script>
 	<script type="text/javascript" src="js/fixed-scroll.js"></script>
 	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
 	<script type="text/javascript" src="js/back-to-top.js"></script> 
@@ -286,6 +286,20 @@
 					"First Floor, Icon Shopping Mall, Sar Tike, Yone Gyi Quarter, Yangon-Mandalay High Way Road, Bago.",
 					"17.334465",
 					"96.481979"
+				],
+				[
+					"YGN-INSEIN ROAD (GAMONE PWINT)",
+					"YGN-INSEIN ROAD (GAMONE PWINT)",
+					"Room (407), 4th Floor,  Yangon-Insein Road, Kamayut Township, Yangon.",
+					"16.842376",
+					"96.126588"
+				],
+				[
+					"47th ROAD",
+					"47th ROAD",
+					"G-08, Ground Floor, Corner of Maharbandula Road & 47 Road, Botahtaung Township, Yangon.",
+					"16.774114",
+					"96.168900"
 				]
 			];
 			gmarkers = [];
@@ -382,13 +396,13 @@
 							<div class="searching">
 								<a data-toggle="dropdown" id="city-township"> <span id="city-group">Show all cities</span> <span class="pull-right down-arrow"> </span> <span class="pull-right up-arrow"> </span></a>
 								<ul class="dropdown-menu city-dropdown" role="menu" aria-labelledby="dLabel">
-									<li><a href="#" id='cityall'> Show All Cities</a></li>
-									<li><a href="#" id='city1'> Yangon</a></li>
-									<li><a href="#" id='city2'> Mandalay</a></li>
-									<li><a href="#" id='city3'> Nay Pyi Taw</a></li>
-									<li><a href="#" id='city4'> Monywa</a></li>
-									<li><a href="#" id='city5'> Bago</a></li>
-									<li><a href="#" id='city6'> Mawlamyaing</a></li>
+									<li><a href="#" id='cityall' class="dcitynav"> Show All Cities</a></li>
+									<li><a href="#" id='city1' data-value="Yangon" class="dcitynav"> Yangon</a></li>
+									<li><a href="#" id='city2' data-value="Mandalay" class="dcitynav"> Mandalay</a></li>
+									<li><a href="#" id='city3' data-value="Nay Pyi Taw" class="dcitynav"> Nay Pyi Taw</a></li>
+									<li><a href="#" id='city4' data-value="Monywa" class="dcitynav"> Monywa</a></li>
+									<li><a href="#" id='city5' data-value="Bago" class="dcitynav"> Bago</a></li>
+									<li><a href="#" id='city6' data-value="Mawlamyaing" class="dcitynav"> Mawlamyaing</a></li>
 								</ul>
 							</div>
 						</div>
@@ -397,28 +411,29 @@
 							<div class="searching">
 								<a data-toggle="dropdown" id="city-township"><span id="township-group">Show All Township</span> <span class="pull-right down-arrow"> </span> <span class="pull-right up-arrow"> </span></a>
 								<ul class="dropdown-menu township-dropdown" role="menu" aria-labelledby="dLabel">
-									<li><a href="#" id='townshipall'> Show All Township</a></li>
-									<li><a href="#" id='township1'> Yankin</a></li>
-									<li><a href="#" id='township2'> Bahan</a></li>
-									<li><a href="#" id='township3'> Tamwe</a></li>
-									<li><a href="#" id='township4'> Thingangyun</a></li>
-									<li><a href="#" id='township5'> Kyauktada</a></li>
-									<li><a href="#" id='township6'> Kamayut</a></li>
-									<li><a href="#" id='hlaing'> Hlaing</a></li>
-									<li><a href="#" id='township7'> Mayangone</a></li>
-									<li><a href="#" id='township8'> Lanmadaw</a></li>
-									<li><a href="#" id='township9'> Thaketa</a></li>
-									<li><a href="#" id='township10'> Sanchaung</a></li>
-									<li><a href="#" id='township11'> Insein</a></li>
-									<li><a href="#" id='township12'> South Okkalapa</a></li>
-									<li><a href="#" id='township13'> Dagon</a></li>
-									<li><a href="#" id='township14'> North Dagon</a></li>
-									<li><a href="#" id='township16'> SitKae Kone</a></li>
-									<li><a href="#" id='township17'> ChanAye TharZan</a></li>
-									<li><a href="#" id='township18'> Oattarathiri</a></li>
-									<li><a href="#" id='township19'> Dadkhina Thiri</a></li>
-									<li><a href="#" id='township20'> ChanMya Tha Zi</a></li>
-									<li><a href="#" id='township21'> AungMyay Tha Zan</a></li>
+									<li><a href="#" id='townshipall' data-value="all" class="dtspnav"> Show All Township</a></li>
+									<li><a href="#" id='township1' data-value="Yankin" class="dtspnav"> Yankin</a></li>
+									<li><a href="#" id='township2' data-value="Bahan" class="dtspnav"> Bahan</a></li>
+									<li><a href="#" id='township3' data-value="Tamwe" class="dtspnav"> Tamwe</a></li>
+									<li><a href="#" id='township4' data-value="Thingangyun" class="dtspnav"> Thingangyun</a></li>
+									<li><a href="#" id='township5' data-value="Kyauktada" class="dtspnav"> Kyauktada</a></li>
+									<li><a href="#" id='township6' data-value="Kamayut" class="dtspnav"> Kamayut</a></li>
+									<li><a href="#" id='hlaing' data-value="Hlaing" class="dtspnav"> Hlaing</a></li>
+									<li><a href="#" id='botahtaung' data-value="Botahtaung" class="dtspnav"> Botahtaung</a></li>
+									<li><a href="#" id='township7' data-value="Mayangone" class="dtspnav"> Mayangone</a></li>
+									<li><a href="#" id='township8' data-value="Lanmadaw" class="dtspnav"> Lanmadaw</a></li>
+									<li><a href="#" id='township9' data-value="Thaketa" class="dtspnav"> Thaketa</a></li>
+									<li><a href="#" id='township10' data-value="Sanchaung" class="dtspnav"> Sanchaung</a></li>
+									<li><a href="#" id='township11' data-value="Insein" class="dtspnav"> Insein</a></li>
+									<li><a href="#" id='township12' data-value="South Okkalapa" class="dtspnav"> South Okkalapa</a></li>
+									<li><a href="#" id='township13' data-value="Dagon" class="dtspnav"> Dagon</a></li>
+									<li><a href="#" id='township14' data-value="North Dagon" class="dtspnav"> North Dagon</a></li>
+									<li><a href="#" id='township16' data-value="SitKae Kone" class="dtspnav"> SitKae Kone</a></li>
+									<li><a href="#" id='township17' data-value="ChanAye TharZan" class="dtspnav"> ChanAye TharZan</a></li>
+									<li><a href="#" id='township18' data-value="Oattarathiri" class="dtspnav"> Oattarathiri</a></li>
+									<li><a href="#" id='township19' data-value="Dadkhina Thiri" class="dtspnav"> Dadkhina Thiri</a></li>
+									<li><a href="#" id='township20' data-value="ChanMya Tha Zi" class="dtspnav"> ChanMya Tha Zi</a></li>
+									<li><a href="#" id='township21' data-value="AungMyay Tha Zan" class="dtspnav"> AungMyay Tha Zan</a></li>
 								</ul>
 							</div>
 						</div>
@@ -740,6 +755,25 @@
 												<!-- <p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p> -->
 											</a>
 										</div>
+										<div class="col-md-4 col-xs-4 address-box">
+											<a href="javascript:google.maps.event.trigger(gmarkers['YGN-INSEIN ROAD (GAMONE PWINT)'],'click');"> 
+												<h2> YGN-INSEIN ROAD <i style="font-weight:400; font-size:48%; letter-spacing:1px;"> (GAMONE PWINT)</i></h2>
+												<p> Room (407), 4th Floor,  Yangon-Insein Road, Kamayut Township, Yangon.</p>
+												<!-- <p> <i class="fa fa-phone fa-lg"></i> : 9977118804</p> -->
+											</a>
+										</div>
+									</div><!--/row-fluid-->
+								</div><!--/item-->
+
+								<div class="item">
+									<div class="row">
+										<div class="col-md-4 col-xs-4 address-box">
+											<a href="javascript:google.maps.event.trigger(gmarkers['47th ROAD'],'click');">
+												<h2> 47th ROAD <i style="font-weight:400; font-size:48%; letter-spacing:1px;"></i></h2>
+												<p>G-08, Ground Floor, Corner of Maharbandula Road & 47 Road, Botahtaung Township, Yangon.</p>
+												<!-- <p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118793</p> -->
+											</a>
+										</div>
 									</div><!--/row-fluid-->
 								</div><!--/item-->
 
@@ -748,7 +782,7 @@
 							<a class="right carousel-control arrow-right pull-right" href="#myCarouselall" data-slide="next"><img src="images/right-arrow.png" onMouseOver="this.src='images/right-arrow-hover.png'" onMouseOut="this.src='images/right-arrow.png'"></a>
 						</div><!--/myCarousel-->
 						<!-- /////************* city1-data ************/// -->
-						<div id="myCarousel" class="carousel slide location-2-slider city1-data township" data-interval="false">
+						<div id="myCarousel" class="carousel slide location-2-slider city1-data township dCity" data-interval="false">
 							<!-- Carousel items -->
 							<div class="carousel-inner location-2-slide-container">
 								<div class="item active">
@@ -974,7 +1008,19 @@
 												<p> Shop (07), City Mart Supermarket, Ground Floor, Corner of Pin lon & Sittaunt Road, North Dagon Township, Yangon</p>
 												<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118820</p>
 											</a>
-										</div> 
+										</div>
+										<div class="col-md-4 col-xs-4 address-box">
+											<a href="javascript:google.maps.event.trigger(gmarkers['YGN-INSEIN ROAD (GAMONE PWINT)'],'click');"> 
+												<h2> YGN-INSEIN ROAD <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(GAMONE PWINT)</i></h2>
+												<p> Room (407), 4th Floor,  Yangon-Insein Road, Kamayut Township, Yangon.</p>
+											</a>
+										</div>
+										<div class="col-md-4 col-xs-4 address-box">
+											<a href="javascript:google.maps.event.trigger(gmarkers['47th ROAD'],'click');"> 
+												<h2> 47th ROAD</h2>
+												<p> G-08, Ground Floor, Corner of Maharbandula Road & 47 Road, Botahtaung Township, Yangon.</p>
+											</a>
+										</div>
 									</div>
 								</div>
 
@@ -985,7 +1031,7 @@
 
 					</div><!--/myCarousel-->
 					<!-- /////////********************** city2 data **************////////////// -->
-					<div id="myCarousel1" class="carousel slide location-2-slider city2-data township" data-interval="false">
+					<div id="myCarousel1" class="carousel slide location-2-slider city2-data township dCity" data-interval="false">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1019,7 +1065,7 @@
 					</div><!--/myCarousel-->
 
 					<!--- ************************///////////////// city 3 ////////////////////******************** -->
-					<div id="myCarousel2" class="carousel slide location-2-slider city3-data township" data-interval="false">
+					<div id="myCarousel2" class="carousel slide location-2-slider city3-data township dCity" data-interval="false">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1068,7 +1114,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- **********************///////// city4 ////////////// *************** -->
-					<div id="myCarousel" class="carousel slide location-2-slider city4-data">
+					<div id="myCarousel" class="carousel slide location-2-slider city4-data dCity">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1087,7 +1133,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- **********************///////// city5 ////////////// *************** -->
-					<div id="myCarousel" class="carousel slide location-2-slider city5-data">
+					<div id="myCarousel" class="carousel slide location-2-slider city5-data dCity">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1106,7 +1152,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- **********************///////// city6 ////////////// *************** -->
-					<div id="myCarousel" class="carousel slide location-2-slider city6-data">
+					<div id="myCarousel" class="carousel slide location-2-slider city6-data dCity">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1131,7 +1177,7 @@
 
 					</div><!--/myCarousel-->
 					<!-- /////================ township data 1 ================= //// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township1-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township1-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1153,7 +1199,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- /////================ township data 2 ================= //// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township2-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township2-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1190,7 +1236,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- ///////////// ============ township data 3 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township3-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township3-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1216,7 +1262,7 @@
 						</div><!--/carousel-inner-->
 					</div><!--/myCarousel-->
 					<!-- ///////////// ============ township data 4 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township4-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township4-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1236,7 +1282,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- ///////////// ============ township data 5 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township5-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township5-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1256,7 +1302,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- ///////////// ============ township data 6 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township6-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township6-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1276,14 +1322,20 @@
 											<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118765</p>
 										</a>
 									</div>
-
+									<div class="col-md-4 col-xs-4 address-box">
+										<a href="javascript:google.maps.event.trigger(gmarkers['YGN-INSEIN ROAD (GAMONE PWINT)'],'click');">
+											<h2> YGN-INSEIN ROAD <i style="font-weight:400; font-size:48%; letter-spacing:1px;">(GAMONE PWINT)</i></h2>
+											<p> Room (407), 4th Floor,  Yangon-Insein Road, Kamayut Township, Yangon.</p>
+										</a>
+									</div>
 								</div><!--/row-fluid-->
 							</div><!--/item-->
 
 						</div><!--/carousel-inner-->
 
 					</div><!--/myCarousel-->
-					<div id="myCarousel" class="carousel slide location-2-slider hlaing-data">
+					<!-- ///////////// ============ hlaing ================ ///////// -->
+					<div id="myCarousel" class="carousel slide location-2-slider hlaing-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1302,8 +1354,27 @@
 
 					</div><!--/myCarousel-->
 
+					<!-- ///////////// ============ Botahtaung ================ ///////// -->
+					<div id="myCarousel" class="carousel slide location-2-slider botahtaung-data dtownship">
+						<!-- Carousel items -->
+						<div class="carousel-inner location-2-slide-container">
+							<div class="item active">
+								<div class="row">
+									<div class="col-md-4 col-xs-4 address-box">
+										<a href="javascript:google.maps.event.trigger(gmarkers['47th ROAD'],'click');">
+											<h2> 47th ROAD</h2>
+											<p> G-08, Ground Floor, Corner of Maharbandula Road & 47 Road, Botahtaung Township, Yangon.</p>
+										</a>
+									</div>
+								</div><!--/row-fluid-->
+							</div><!--/item-->
+
+						</div><!--/carousel-inner-->
+
+					</div><!--/myCarousel-->
+
 					<!-- ///////////// ============ township data 7 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township7-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township7-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1331,7 +1402,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- ///////////// ============ township data 8 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township8-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township8-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1356,7 +1427,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- ///////////// ============ township data 9 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township9-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township9-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1382,7 +1453,7 @@
 						</div><!--/carousel-inner-->
 					</div><!--/myCarousel-->
 					<!-- ///////////// ============ township data 10 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township10-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township10-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1399,7 +1470,7 @@
 						</div><!--/carousel-inner-->
 					</div><!--/myCarousel-->
 					<!-- ///////////// ============ township data 11 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township11-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township11-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1418,7 +1489,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- ///////////// ============ township data 12 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township12-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township12-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1437,7 +1508,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- ///////////// ============ township data 13 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township13-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township13-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1454,7 +1525,7 @@
 						</div><!--/carousel-inner-->
 					</div><!--/myCarousel-->
 					<!-- ///////////// ============ township data 14 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township14-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township14-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1481,7 +1552,7 @@
 					</div><!--/myCarousel-->
 
 					<!-- ///////////// ============ township data 16 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township16-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township16-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1500,7 +1571,7 @@
 						</div><!--/carousel-inner-->
 					</div><!--/myCarousel-->
 					<!-- ///////////// ============ township data 17 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township17-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township17-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1518,7 +1589,7 @@
 						</div><!--/carousel-inner-->
 					</div><!--/myCarousel-->
 					<!-- ///////////// ============ township data 18 ================ ///////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township18-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township18-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1535,7 +1606,7 @@
 						</div><!--/carousel-inner-->
 					</div><!--/myCarousel-->
 					<!-- ///////////// ============ township data 19 ================ /////////////////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township19-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township19-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1554,7 +1625,7 @@
 						</div><!--/carousel-inner-->
 					</div><!--/myCarousel-->
 					<!-- ///////////// ============ township data 20 ================ /////////////////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township20-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township20-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1572,7 +1643,7 @@
 						</div><!--/carousel-inner-->
 					</div><!--/myCarousel-->
 					<!-- ///////////// ============ township data 21 ================ /////////////////// -->
-					<div id="myCarousel" class="carousel slide location-2-slider township21-data">
+					<div id="myCarousel" class="carousel slide location-2-slider township21-data dtownship">
 						<!-- Carousel items -->
 						<div class="carousel-inner location-2-slide-container">
 							<div class="item active">
@@ -1611,12 +1682,12 @@
 					<button class="btn btn-default dropdown-toggle mb-dropdown" type="button" id="menu1" data-toggle="dropdown"> City : <span id="city-stay"> Yangon</span>
 						<span class="down-shape pull-right"></span> <span class="up-shape pull-right"></button>
 						<ul class="dropdown-menu" role="menu" aria-labelledby="menu1" style="top:13%;">
-							<li role="presentation"><a role="menuitem" href="#" id="mb-city1">Yangon</a></li>
-							<li role="presentation"><a role="menuitem" href="#" id="mb-city2">Mandalay</a></li>
-							<li role="presentation"><a role="menuitem" href="#" id="mb-city3">Nay Pyi Taw</a></li>
-							<li role="presentation"><a role="menuitem" href="#" id="mb-city4">Monywa</a></li>
-							<li role="presentation"><a role="menuitem" href="#" id="mb-city5">Bago</a></li>
-							<li role="presentation"><a role="menuitem" href="#" id="mb-city6">Mawlamyaing</a></li>
+							<li role="presentation"><a role="menuitem" href="#" class="mbcitynav" data-value="Yangon" id="mb-city1">Yangon</a></li>
+							<li role="presentation"><a role="menuitem" href="#" class="mbcitynav" data-value="Mandalay" id="mb-city2">Mandalay</a></li>
+							<li role="presentation"><a role="menuitem" href="#" class="mbcitynav" data-value="Nay Pyi Taw" id="mb-city3">Nay Pyi Taw</a></li>
+							<li role="presentation"><a role="menuitem" href="#" class="mbcitynav" data-value="Monywa" id="mb-city4">Monywa</a></li>
+							<li role="presentation"><a role="menuitem" href="#" class="mbcitynav" data-value="Bago" id="mb-city5">Bago</a></li>
+							<li role="presentation"><a role="menuitem" href="#" class="mbcitynav" dat-balue="Mawlamyaing" id="mb-city6">Mawlamyaing</a></li>
 						</ul>
 					</div>
 
@@ -1624,28 +1695,29 @@
 						<button class="btn btn-default dropdown-toggle mb-dropdown" type="button" id="menu1" data-toggle="dropdown"> Township : <span id="township-stay"> All</span>
 							<span class="down-shape pull-right"> </span> <span class="up-shape pull-right"></span></button>
 							<ul class="dropdown-menu" role="menu" aria-labelledby="menu1" style="top:28%;">
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township1">Yankin</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township2">Bahan</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township3">Tamwe</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township4">Thingangyun</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township5">Kyauktada</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township6">Kamayut</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-hlaing">Hlaing</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township7">Mayangone</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township8">Lanmadaw</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township9">Thaketa</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township10">Sanchaung</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township11">Insein</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township12">South Okklapa</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township13">Dagon</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township14">North Dagon</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township15">South Dagon</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township16">SitKae Kone</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township17">ChanAye TharZan</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township18">Oattarathiri</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township19">Dadkhina Thiri</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township20">ChanMya Tha Zi</a></li>
-								<li role="presentation"><a role="menuitem" href="#" id="mb-township21">AungMyay Tha Zan</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Yankin" id="mb-township1">Yankin</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Bahan" id="mb-township2">Bahan</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Tamwe" id="mb-township3">Tamwe</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Thingangyun" id="mb-township4">Thingangyun</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Kyauktada" id="mb-township5">Kyauktada</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Kamayut" id="mb-township6">Kamayut</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Hlaing" id="mb-hlaing">Hlaing</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Botahtaung" id="mb-botahtaung">Botahtaung</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Mayangone" id="mb-township7">Mayangone</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Lanmadaw" id="mb-township8">Lanmadaw</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Thaketa" id="mb-township9">Thaketa</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Sanchaung" id="mb-township10">Sanchaung</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Insein" id="mb-township11">Insein</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="South Okklapa" id="mb-township12">South Okklapa</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Dagon" id="mb-township13">Dagon</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="North Dagon" id="mb-township14">North Dagon</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="South Dagon" id="mb-township15">South Dagon</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="SitKae Kone" id="mb-township16">SitKae Kone</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="ChanAye TharZan" id="mb-township17">ChanAye TharZan</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Oattarathiri" id="mb-township18">Oattarathiri</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="Dadkhina Thiri" id="mb-township19">Dadkhina Thiri</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="ChanMya Tha Zi" id="mb-township20">ChanMya Tha Zi</a></li>
+								<li role="presentation"><a role="menuitem" href="#" class="mbtspnav" data-value="AungMyay Tha Zan" id="mb-township21">AungMyay Tha Zan</a></li>
 							</ul>
 						</div> 
 
@@ -1653,7 +1725,7 @@
 
 				</div>
 				<!-- *********** mb category end ********* -->
-				<div class="mb-city1-data">
+				<div class="mb-city1-data mobileCity">
 					<div class="panel-group" id="accordion">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2086,16 +2158,50 @@
 							</div>
 							<div id="collapsemdyThree" class="panel-collapse collapse">
 								<div class="panel-body">
-									<p> Shop (07), City Mart Supermarket, Ground Floor, Corner of Pin lon & Sittaunt Road, North Dagon Township, Yangon.</p>
+									<p> Shop (07), City Mart Supermarket, Ground Floor,<br/>Corner of Pin lon & Sittaunt Road,<br/>North Dagon Township, Yangon.</p>
 									<p> <i class="fa fa-mobile fa-lg"></i> &nbsp : 9977118820</p>
 									<div class="view-map"><span><a href="https://www.google.com.mm/maps/@16.8726531,96.1960322,17z?hl=en" target="_blank"> View Map</a> </span> </div>
+								</div>
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h2 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#ygngpir" style="display:block; width:100%;">
+										YGN-INSEIN ROAD <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(GAMONE PWINT)</i>
+										<span class="glyphicon glyphicon-plus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
+									</a>
+								</h2>
+							</div>
+							<div id="ygngpir" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p> Room (407), 4th Floor,<br/>Yangon-Insein Road,<br/>Kamayut Township, Yangon.</p>
+									<div class="view-map"><span><a href="https://www.google.com.mm/maps/@16.842376,96.126588,17z?hl=en" target="_blank"> View Map</a> </span> </div>
+								</div>
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h2 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#47st" style="display:block; width:100%;">
+										47th ROAD
+										<span class="glyphicon glyphicon-plus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
+									</a>
+								</h2>
+							</div>
+							<div id="47st" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p> G-08, Ground Floor,<br/>Corner of Maharbandula Road & 47 Road,<br/>Botahtaung Township, Yangon.</p>
+									<div class="view-map"><span><a href="https://www.google.com.mm/maps/@16.774114,96.168900,17z?hl=en" target="_blank"> View Map</a> </span> </div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div> <!-- city1 end -->
 
-				<div class="mb-city2-data">
+				<div class="mb-city2-data mobileCity">
 					<div class="panel-group" id="accordion1">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2156,7 +2262,7 @@
 				</div>  <!-- mb city 2 -->
 
 				<!-- * -->
-				<div class="mb-city3-data">
+				<div class="mb-city3-data mobileCity">
 					<div class="panel-group" id="accordion2">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2234,7 +2340,7 @@
 					</div>
 				</div> <!-- mb city 3 -->
 
-				<div class="mb-city4-data">
+				<div class="mb-city4-data mobileCity">
 					<div class="panel-group" id="accordion5">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2256,7 +2362,7 @@
 					</div>
 				</div> <!-- mb city 4 -->
 
-				<div class="mb-city5-data">
+				<div class="mb-city5-data mobileCity">
 					<div class="panel-group" id="accordion5">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2278,7 +2384,7 @@
 					</div>
 				</div> <!-- mb city 5 -->
 
-				<div class="mb-city6-data">
+				<div class="mb-city6-data mobileCity">
 					<div class="panel-group" id="accordion5">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2318,7 +2424,7 @@
 					</div>
 				</div> <!-- mb city 6 -->
 				<!--/********************** Start mb-Township *******************/-->
-				<div class="mb-township1-data">
+				<div class="mb-township1-data mobileTownship">
 					<div class="panel-group" id="accordion6">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2343,7 +2449,7 @@
 					</div>
 				</div> <!-- mb Township1 -->
 
-				<div class="mb-township2-data">
+				<div class="mb-township2-data mobileTownship">
 					<div class="panel-group" id="accordion7">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2403,7 +2509,7 @@
 					</div>
 				</div> <!-- mb Township2 -->
 
-				<div class="mb-township3-data">
+				<div class="mb-township3-data mobileTownship">
 					<div class="panel-group" id="accordion8">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2446,7 +2552,7 @@
 					</div>
 				</div> <!-- mb Township3 -->
 
-				<div class="mb-township4-data">
+				<div class="mb-township4-data mobileTownship">
 					<div class="panel-group" id="accordion9">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2471,7 +2577,7 @@
 					</div>
 				</div> <!-- mb Township4 -->
 
-				<div class="mb-township5-data">
+				<div class="mb-township5-data mobileTownship">
 					<div class="panel-group" id="accordion10">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2495,7 +2601,7 @@
 					</div>
 				</div> <!-- mb Township5 -->
 
-				<div class="mb-township6-data">
+				<div class="mb-township6-data mobileTownship">
 					<div class="panel-group" id="accordion11">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2535,10 +2641,27 @@
 							</div>
 						</div> 
 
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h2 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion1" href="#ygngpirtp" style="display:block; width:100%;">
+										YGN-INSEIN ROAD <i style="font-weight:400; font-size:50%; letter-spacing:1px;">(GAMONE PWINT)</i>
+										<span class="glyphicon glyphicon-plus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
+									</a>
+								</h2>
+							</div>
+							<div id="ygngpirtp" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p> Room (407), 4th Floor,<br/>Yangon-Insein Road,<br/>Kamayut Township, Yangon.</p>
+									<div class="view-map"><span><a href="https://www.google.com.mm/maps/@16.842376,96.126588,17z?hl=en" target="_blank"> View Map</a> </span> </div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div> <!-- mb Township6 -->
 
-				<div class="mb-hlaing-data">
+				<div class="mb-hlaing-data mobileTownship">
 					<div class="panel-group" id="accordion11">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2562,7 +2685,7 @@
 					</div>
 				</div> <!-- mb Hlaing -->
 
-				<div class="mb-township7-data">
+				<div class="mb-township7-data mobileTownship">
 					<div class="panel-group" id="accordion12">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2605,7 +2728,7 @@
 					</div>
 				</div> <!-- mb Township7 -->
 
-				<div class="mb-township8-data">
+				<div class="mb-township8-data mobileTownship">
 					<div class="panel-group" id="accordion13">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2646,7 +2769,7 @@
 					</div>
 				</div> <!-- mb Township8 -->
 
-				<div class="mb-township9-data">
+				<div class="mb-township9-data mobileTownship">
 					<div class="panel-group" id="accordion14">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2688,7 +2811,7 @@
 					</div>
 				</div> <!-- mb Township9 -->
 
-				<div class="mb-township10-data">
+				<div class="mb-township10-data mobileTownship">
 					<div class="panel-group" id="accordion15">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2710,7 +2833,7 @@
 					</div>
 				</div> <!-- mb Township10 -->
 
-				<div class="mb-township11-data">
+				<div class="mb-township11-data mobileTownship">
 					<div class="panel-group" id="accordion16">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2734,7 +2857,7 @@
 					</div>
 				</div> <!-- mb Township11 -->
 
-				<div class="mb-township12-data">
+				<div class="mb-township12-data mobileTownship">
 					<div class="panel-group" id="accordion17">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2757,7 +2880,7 @@
 					</div>
 				</div> <!-- mb Township12 -->
 
-				<div class="mb-township13-data">
+				<div class="mb-township13-data mobileTownship">
 					<div class="panel-group" id="accordion18">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2780,7 +2903,7 @@
 					</div>
 				</div> <!-- mb Township13 -->
 
-				<div class="mb-township14-data">
+				<div class="mb-township14-data mobileTownship">
 					<div class="panel-group" id="accordion19">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2820,7 +2943,7 @@
 					</div>
 				</div> <!-- mb Township14 -->
 
-				<div class="mb-township16-data">
+				<div class="mb-township16-data mobileTownship">
 					<div class="panel-group" id="accordion21">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2842,7 +2965,7 @@
 					</div>
 				</div> <!-- mb Township16 -->
 
-				<div class="mb-township17-data">
+				<div class="mb-township17-data mobileTownship">
 					<div class="panel-group" id="accordion22">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2866,7 +2989,7 @@
 					</div>
 				</div> <!-- mb Township17 -->
 
-				<div class="mb-township18-data">
+				<div class="mb-township18-data mobileTownship">
 					<div class="panel-group" id="accordion23">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2889,7 +3012,7 @@
 					</div>
 				</div> <!-- mb Township18 -->
 
-				<div class="mb-township19-data">
+				<div class="mb-township19-data mobileTownship">
 					<div class="panel-group" id="accordion24">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2912,7 +3035,7 @@
 					</div>
 				</div> <!-- mb Township19 -->
 
-				<div class="mb-township20-data">
+				<div class="mb-township20-data mobileTownship">
 					<div class="panel-group" id="accordion25">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2936,7 +3059,7 @@
 					</div>
 				</div> <!-- mb Township20 -->
 
-				<div class="mb-township21-data">
+				<div class="mb-township21-data mobileTownship">
 					<div class="panel-group" id="accordion">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -2958,6 +3081,27 @@
 
 					</div>
 				</div><!-- mb Township21 -->
+
+				<div class="mb-botahtaung-data mobileTownship">
+					<div class="panel-group" id="47throad">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h2 class="panel-title">
+									<a data-toggle="collapse" data-parent="#47throad" href="#47throadc" style="display:block; width:100%;">
+										47th ROAD
+										<span class="glyphicon glyphicon-plus pull-right" style="font-weight:bold; font-size:150%; margin-top:-4px;"></span>
+									</a>
+								</h2>
+							</div>
+							<div id="47throadc" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<p> G-08, Ground Floor,<br/>Corner of Maharbandula Road & 47 Road,<br/>Botahtaung Township, Yangon.</p>
+									<div class="view-map"><span><a href="https://www.google.com.mm/maps/@16.774114,96.168900,17z?hl=en" target="_blank"> View Map</a> </span> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<!--/////////// end mobile dropdown effects /////////// -->
 
 				<div class="bg-footer" style="background-color:#fff;">

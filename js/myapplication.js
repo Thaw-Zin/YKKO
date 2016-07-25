@@ -1,190 +1,27 @@
 $(document).ready(function() {
 	
 	//////////////////// ********* Location final click and data change ********  //////////////
-	$("div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-	$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data, div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
+	$(".mobileCity").not(".mb-city1-data").hide();
+	$(".mobileTownship").hide();
 	
-	$("#mb-city1").click(function(){ 
-		$("#city-stay").text("Yangon");
+	$(document).on("click", ".mbcitynav", function(){
+
+		$("#city-stay").text($(this).data("value"));
 		$("#township-stay").text("All");
-		$("div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		
-		$("div.mb-city1-data").show();
+		$(".mobileTownship").hide();
+		$(".mobileCity").hide();
+		$("."+$(this).attr("id")+"-data").show();
 	});
-	$("#mb-city2").click(function(){ 
-		$("#city-stay").text("Mandalay");
-		$("#township-stay").text("All");
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		
-		$("div.mb-city1-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-city2-data").show();
+
+	$(document).on("click", ".mbtspnav", function(){
+		$("#township-stay").text($(this).data("value"));
+		$(".mobileCity").hide();
+		$(".mobileTownship").hide();
+		$("."+$(this).attr("id")+"-data").show();
 	});
-	$("#mb-city3").click(function(){ 
-		$("#city-stay").text("Nay Pyi Taw");
-		$("#township-stay").text("All");
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-	
-		$("div.mb-city1-data, div.mb-city2-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-city3-data").show();
-	});
-	$("#mb-city4").click(function(){ 
-		$("#city-stay").text("Monywa");
-		$("#township-stay").text("All");
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-	
-		$("div.mb-city1-data, div.mb-city2-data, div.mb-city3-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-city4-data").show();
-	});
-	$("#mb-city5").click(function(){ 
-		$("#city-stay").text("Bago");
-		$("#township-stay").text("All");
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-	
-		$("div.mb-city1-data, div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city6-data").hide();
-		$("div.mb-city5-data").show();
-	});
-	$("#mb-city6").click(function(){ 
-		$("#city-stay").text("Mawlamyaing");
-		$("#township-stay").text("All");
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-	
-		$("div.mb-city1-data, div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data").hide();
-		$("div.mb-city6-data").show();
-	});
+
 	//////////// * /////////////
-	$("#mb-township1").click(function(){ 
-		$("#township-stay").text("Yankin");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township2-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township1-data").show();
-	});
-	$("#mb-township2").click(function(){ 
-		$("#township-stay").text("Bahan");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township3-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data, div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township2-data").show();
-	});
-	$("#mb-township3").click(function(){ 
-		$("#township-stay").text("Tamwe");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township4-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data, div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township3-data").show();
-	});
-	$("#mb-township4").click(function(){ 
-		$("#township-stay").text("Thingangyun");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township5-data,div.mb-township6-data,div.mb-hlaing-data, div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township4-data").show();
-	});
-	$("#mb-township5").click(function(){ 
-		$("#township-stay").text("Kyauktada");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township6-data,div.mb-hlaing-data, div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township5-data").show();
-	});
-	$("#mb-township6").click(function(){ 
-		$("#township-stay").text("Kamayut");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data,div.mb-hlaing-data, div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township6-data").show();
-	});
-	$("#mb-hlaing").click(function(){ 
-		$("#township-stay").text("Hlaing");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data,div.mb-township6-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-hlaing-data").show();
-	});
-	$("#mb-township7").click(function(){ 
-		$("#township-stay").text("Mayangone");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township7-data").show();
-	});
-	$("#mb-township8").click(function(){ 
-		$("#township-stay").text("Lanmadaw");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township8-data").show();
-	});
-	$("#mb-township9").click(function(){ 
-		$("#township-stay").text("Thaketa");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township9-data").show();
-	});
-	$("#mb-township10").click(function(){ 
-		$("#township-stay").text("Sanchaung");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township10-data").show();
-	});
-	$("#mb-township11").click(function(){ 
-		$("#township-stay").text("Insein");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township11-data").show();
-	});
-	$("#mb-township12").click(function(){ 
-		$("#township-stay").text("South Okklapa");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township12-data").show();
-	});
-	$("#mb-township13").click(function(){ 
-		$("#township-stay").text("Dagon");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township13-data").show();
-	});
-	$("#mb-township14").click(function(){ 
-		$("#township-stay").text("North Dagon");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data").hide();
-		$("div.mb-township14-data").show();
-	});
-	$("#mb-township15").click(function(){ 
-		$("#township-stay").text("South Dagon");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township15-data").show();
-	});
-	$("#mb-township16").click(function(){ 
-		$("#township-stay").text("SitKae Kone");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township16-data").show();
-	});
-	$("#mb-township17").click(function(){ 
-		$("#township-stay").text("ChanAye TharZan");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township18-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township17-data").show();
-	});
-	$("#mb-township18").click(function(){ 
-		$("#township-stay").text("Oattarathiri");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township19-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township18-data").show();
-	});
-	$("#mb-township19").click(function(){ 
-		$("#township-stay").text("Dadkhina Thiri");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township20-data,div.mb-township21-data").hide();
-		$("div.mb-township19-data").show();
-	});
-	$("#mb-township20").click(function(){ 
-		$("#township-stay").text("ChanMya Tha Zi");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data,div.mb-township21-data").hide();
-		$("div.mb-township20-data").show();
-	});
-	$("#mb-township21").click(function(){ 
-		$("#township-stay").text("AungMyay Tha Zan");
-		$("div.mb-city1-data,div.mb-city2-data, div.mb-city3-data, div.mb-city4-data, div.mb-city5-data, div.mb-city6-data").hide();
-		$("div.mb-township1-data, div.mb-township2-data, div.mb-township3-data, div.mb-township4-data,div.mb-township5-data, div.mb-township6-data,div.mb-hlaing-data,div.mb-township7-data, div.mb-township8-data, div.mb-township9-data, div.mb-township10-data, div.mb-township11-data, div.mb-township12-data, div.mb-township13-data, div.mb-township14-data, div.mb-township15-data, div.mb-township16-data, div.mb-township17-data, div.mb-township18-data, div.mb-township19-data,div.mb-township20-data").hide();
-		$("div.mb-township21-data").show();
-	});
+	
 			$(".up-shape").hide();
 			$(".mb-dropdown").click(function(){
 			         //$(this).next(".option-content").slideToggle(500);
