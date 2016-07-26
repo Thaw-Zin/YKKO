@@ -74,35 +74,6 @@ $(document).ready(function() {
          zindex:     9999,    // z-index value of sticky element
         	debugmode:  false   // when true, errors will be logged to console
          });
-
-        /*if($(window).width() < 768 ){
-			// grab the initial top offset of the navigation 
-				var sticky_navigation_offset_top = $('div.mb-categories').offset().top;
-				
-				// our function that decides weather the navigation bar should have "fixed" css position or not.
-				var sticky_navigation = function(){
-					var scroll_top = $(window).scrollTop(); // our current vertical position from the top
-					
-					// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
-					if (scroll_top > sticky_navigation_offset_top) { 
-						$('div.mb-categories').css({ 'position': 'fixed', 'top':0, 'display':'block', 'width':'100%', 'z-index':999 });
-					} else {
-						$('div.mb-categories').css({ 'position': 'relative'}); 
-					}   
-				};
-				// run our function on load
-				sticky_navigation();
-				
-				// and run it again every time you scroll
-				$(window).scroll(function() {
-					 sticky_navigation();
-				});
-				// NOT required:
-				// for this demo disable all links that point to "#"
-				$('a[href="#"]').click(function(event){ 
-					event.preventDefault(); 
-				});
-			}*/
                   
 		/***************************dropdown effects for menu category ************/
 		function DropDown(el) {
@@ -164,14 +135,14 @@ $(document).ready(function() {
 				  });
 
 		////////*************** to get active state of sub categores by click ************///////////
-				$('.main-sub-categories a').click(function(e) {
-	        	$('.main-sub-categories a').removeClass('active');
-	        //var $parent = $(this).parent();
-	        	if (!$(this).hasClass('active')) {
-	            $(this).addClass('active');
-	        	}
-	       	 e.preventDefault();
-	    	});
+	$('.main-sub-categories a').click(function(e) {
+	    $('.main-sub-categories a').removeClass('active');
+        if (!$(this).hasClass('active')) {
+           var mid = $(this).data("name");
+           $("#"+mid+", #ip-"+mid).addClass("active");
+        }
+	    e.preventDefault();
+	});
 //////////////// ************** click and set active state location sub title ********///////////
 		$('.location-cities a').click(function(e) {
 	        	$('.location-cities a').removeClass('active');
