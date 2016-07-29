@@ -723,15 +723,9 @@
 				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<!-- <p class="text-center alert-food"><span> YKKO Specials</span></p> -->
-						<img src="images/menus/Desert/Apple-Burter-Cake.png" data-at2x="images/menus/Desert/retina/Apple-Burter-Cake@2x.png" class="img-responsive">
+						<img src="images/menus/Desert/Apple-Burter-Cake.jpg" data-at2x="images/menus/Desert/retina/Apple-Burter-Cake@2x.jpg" class="img-responsive">
 						<div class="food-des">
 							<h3> Caramel Mousse Cake</h3>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Desert/Flam-Parisian.png" data-at2x="images/menus/Desert/retina/Flam-Parisian@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Flam Parisian</h3>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3 menus-item">
@@ -741,29 +735,24 @@
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Desert/Sacher Cake.png" data-at2x="images/menus/Desert/retina/Sacher Cake@2x.png" class="img-responsive">
+						<img src="images/menus/Desert/Sacher Cake.jpg" data-at2x="images/menus/Desert/retina/Sacher Cake@2x.jpg" class="img-responsive">
 						<div class="food-des">
 							<h3> Sacher Cake</h3>
 						</div>
 					</div>
-				</div>
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Desert/Opera Cake.png" data-at2x="images/menus/Desert/retina/Opera Cake@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Opera Cake</h3>
 						</div>
 					</div>
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Desert/Brownie Cake.png" data-at2x="images/menus/Desert/retina/Brownie Cake@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Brownie Cake</h3>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Desert/Chocolate-Cream-Slice Cake.png" data-at2x="images/menus/Desert/retina/Chocolate-Cream-Slice Cake@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Chocolate Cream Slice</h3>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3 menus-item">
@@ -772,9 +761,6 @@
 							<h3> Chocolate Dream</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Desert/Black & White Mousse Cake.jpg" data-at2x="images/menus/Desert/retina/Black & White Mousse Cake@2x.jpg" class="img-responsive">
 						<div class="food-des">
@@ -787,6 +773,9 @@
 							<h3> Black Forrest Cake</h3>
 						</div>
 					</div>
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Desert/Blueberry Cheese Cake.jpg" data-at2x="images/menus/Desert/retina/Blueberry Cheese Cake@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -799,9 +788,6 @@
 							<h3> Chocolate Meringue</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Desert/Cream Brulee.jpg" data-at2x="images/menus/Desert/retina/Cream Brulee@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -814,6 +800,9 @@
 							<h3> Cream Cheese Cake</h3>
 						</div>
 					</div>
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Desert/Mango Cheese Cake.jpg" data-at2x="images/menus/Desert/retina/Mango Cheese Cake@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -826,9 +815,6 @@
 							<h3> Traditional Chocolate Cake</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Fresh-Fruit-Juice/Apple.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Apple@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -841,6 +827,9 @@
 							<h3> Avocado Juice</h3>
 						</div>
 					</div>
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Fresh-Fruit-Juice/Mixed Berry Smoothies.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Mixed Berry Smoothies@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -853,9 +842,6 @@
 							<h3> Suger cane Juice</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Fresh-Fruit-Juice/Back Jelly.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Back Jelly@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -868,6 +854,9 @@
 							<h3> Sunkist Juice</h3>
 						</div>
 					</div>
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Fresh-Fruit-Juice/Soda-Kiwi.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Soda-Kiwi@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -880,9 +869,6 @@
 							<h3> Soda Blueberry Juice</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Fresh-Fruit-Juice/Fruit Cocktail.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Fruit Cocktail@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -895,6 +881,9 @@
 							<h3> Pineapple Juice</h3>
 						</div>
 					</div>
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Fresh-Fruit-Juice/Prune.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Prune@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -907,9 +896,6 @@
 							<h3> Lime Juice</h3>
 						</div>
 					</div>
-				</div> 
-
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Fresh-Fruit-Juice/Orange.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Orange@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -922,6 +908,9 @@
 							<h3> Strawberry Juice</h3>
 						</div>
 					</div>
+				</div> 
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Fresh-Fruit-Juice/Sweet lime.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Sweet line@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -934,9 +923,6 @@
 							<h3> Tamarind Juice</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Fresh-Fruit-Juice/Watermelon.png" data-at2x="images/menus/Fresh-Fruit-Juice/retina/Watermelon@2x.png" class="img-responsive">
 						<div class="food-des">
@@ -949,7 +935,6 @@
 							<h3> Papaya Juice</h3>
 						</div>
 					</div>
-					
 				</div>
 
 			</div> 
@@ -1742,29 +1727,22 @@
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Desert/Apple-Burter-Cake.png" data-at2x="images/menus/Desert/retina/Apple-Burter-Cake@2x.png" class="img-responsive">
+						<img src="images/menus/Desert/Apple-Burter-Cake.jpg" data-at2x="images/menus/Desert/retina/Apple-Burter-Cake@2x.jpg" class="img-responsive">
 						<div class="food-des">
 							<h3> Caramel Mousse Cake</h3>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Desert/Flam-Parisian.png" data-at2x="images/menus/Desert/retina/Flam-Parisian@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Flam Parisian</h3>
-						</div>
-					</div>
-					<!---->
-				</div>
-
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<img src="images/menus/Desert/Pudding.png" data-at2x="images/menus/Desert/retina/Pudding@2x.png" class="img-responsive">
 						<div class="food-des">
 							<h3> Cream Caramel</h3>
 						</div>
 					</div>
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
-						<img src="images/menus/Desert/Sacher Cake.png" data-at2x="images/menus/Desert/retina/Sacher Cake@2x.png" class="img-responsive">
+						<img src="images/menus/Desert/Sacher Cake.jpg" data-at2x="images/menus/Desert/retina/Sacher Cake@2x.jpg" class="img-responsive">
 						<div class="food-des">
 							<h3> Sacher Cake</h3>
 						</div>
@@ -1781,17 +1759,6 @@
 							<h3> Brownie Cake</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="row menus-item-row">
-					
-					<div class="col-sm-6 col-md-3 menus-item">
-						<p class="text-center alert-food" style="visibility:hidden;"><span></span></p>
-						<img src="images/menus/Desert/Chocolate-Cream-Slice Cake.png" data-at2x="images/menus/Desert/retina/Chocolate-Cream-Slice Cake@2x.png" class="img-responsive">
-						<div class="food-des">
-							<h3> Chocolate Cream Slice</h3>
-						</div>
-					</div>
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food" style="visibility:hidden;"><span></span></p>
 						<img src="images/menus/Desert/Cointreau.png" data-at2x="images/menus/Desert/retina/Cointreau@2x.png" class="img-responsive">
@@ -1799,6 +1766,9 @@
 							<h3> Chocolate Dream</h3>
 						</div>
 					</div>
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food" style="visibility:hidden;"><span></span></p>
 						<img src="images/menus/Desert/Black & White Mousse Cake.jpg" data-at2x="images/menus/Desert/retina/Black & White Mousse Cake@2x.png" class="img-responsive">
@@ -1812,11 +1782,7 @@
 						<div class="food-des">
 							<h3> Black Forrest Cake</h3>
 						</div>
-					</div>
-				</div>
-
-				<div class="row menus-item-row">
-					
+					</div>	
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food" style="visibility:hidden;"><span></span></p>
 						<img src="images/menus/Desert/Blueberry Cheese Cake.jpg" data-at2x="images/menus/Desert/retina/Blueberry Cheese Cake@2x.png" class="img-responsive">
@@ -1831,6 +1797,9 @@
 							<h3> Chocolate Meringue</h3>
 						</div>
 					</div>
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food" style="visibility:hidden;"><span></span></p>
 						<img src="images/menus/Desert/Cream Brulee.jpg" data-at2x="images/menus/Desert/retina/Cream Brulee@2x.png" class="img-responsive">
@@ -1845,9 +1814,6 @@
 							<h3> Cream Cheese Cake</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food" style="visibility:hidden;"><span></span></p>
 						<img src="images/menus/Desert/Mango Cheese Cake.jpg" data-at2x="images/menus/Desert/retina/Mango Cheese Cake@2x.png" class="img-responsive">
@@ -1862,7 +1828,9 @@
 							<h3> Traditional Chocolate Cake</h3>
 						</div>
 					</div>
-				
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food"><span> YKKO Specials</span></p>
 						<img src="images/menus/Desert/Ice-K-Chang.png" data-at2x="images/menus/Desert/retina/Ice-K-Chang@2x.png" class="img-responsive">
@@ -1877,9 +1845,6 @@
 							<h3> The Lovers Ice Cream</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food" style="visibility:hidden;"><span></span></p>
 						<img src="images/menus/Desert/Strawberry.png" data-at2x="images/menus/Desert/retina/Strawberry@2x.png" class="img-responsive">
@@ -1894,6 +1859,9 @@
 							<h3> Venilla</h3>
 						</div>
 					</div>
+				</div>
+
+				<div class="row menus-item-row">
 					<div class="col-sm-6 col-md-3 menus-item">
 						<p class="text-center alert-food" style="visibility:hidden;"><span></span></p>
 						<img src="images/menus/Desert/Chocolate.png" data-at2x="images/menus/Desert/retina/Chocolate@2x.png" class="img-responsive">
