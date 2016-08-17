@@ -35,43 +35,43 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 		<script>
-    //youtube script
-	var tag = document.createElement('script');
-	tag.src = "https://www.youtube.com/iframe_api";
-	var firstScriptTag = document.getElementsByTagName('script')[0];
-	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-	var player;
-	onYouTubeIframeAPIReady = function () {
-    player = new YT.Player('player', {
-        height: '350',
-        width: '100%',
-        frameborder:'0',
-        allowallowfullscreen:true,
-        videoId: 'SmEKTd99-kA',  // youtube video id
-        //videoId: 'xj3tg0j-lhY',  // youtube video id
-        playerVars: {
-            'autoplay': 0,
-            'rel': 0,
-            'hd': 1,
-            'controls': 1,
-            'autohide': 1,
-            'showinfo': 0
-        },
-        events: {
-            'onStateChange': onPlayerStateChange
-        }
-    });
-}
-onPlayerStateChange = function (event) {
-    if (event.data == YT.PlayerState.ENDED) {
-        $('.start-video').fadeIn('normal');
-    }
-}
-$(document).on('click', '.start-video', function () {
-    $(this).fadeOut('normal');
-    $(".youtube-icon").attr('src',"images/pause-icon.png");
-    player.playVideo();
-});
+		    //youtube script
+			var tag = document.createElement('script');
+			tag.src = "https://www.youtube.com/iframe_api";
+			var firstScriptTag = document.getElementsByTagName('script')[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+			var player;
+			onYouTubeIframeAPIReady = function () {
+		    player = new YT.Player('player', {
+		        height: '350',
+		        width: '100%',
+		        frameborder:'0',
+		        allowallowfullscreen:true,
+		        videoId: 'SmEKTd99-kA',  // youtube video id
+		        //videoId: 'xj3tg0j-lhY',  // youtube video id
+		        playerVars: {
+		            'autoplay': 0,
+		            'rel': 0,
+		            'hd': 1,
+		            'controls': 1,
+		            'autohide': 1,
+		            'showinfo': 0
+		        },
+		        events: {
+		            'onStateChange': onPlayerStateChange
+		        }
+		    });
+		}
+		onPlayerStateChange = function (event) {
+		    if (event.data == YT.PlayerState.ENDED) {
+		        $('.start-video').fadeIn('normal');
+		    }
+		}
+		$(document).on('click', '.start-video', function () {
+		    $(this).fadeOut('normal');
+		    $(".youtube-icon").attr('src',"images/pause-icon.png");
+		    player.playVideo();
+		});
 
 $(document).ready(function() {
 //$( "#myanmar").click(function() 

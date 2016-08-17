@@ -71,13 +71,13 @@
 						<p style="text-align:right;"> <a href="https://www.facebook.com/YKKOmyanmar" target="_blank" class="facebook">JOIN US ON FACEBOOK! </a> </p>
 					</div>
 				</div>
-				<div id="adsBanner">
+				<!-- <div id="adsBanner">
 					<a href="https://www.shop.com.mm/ykko/?utm_source=facebook&utm_medium=community&utm_campaign=MM-%5B%5D%20YKKO%20Website" rel="nofollow" target="_new">
 						<img src="images/ads/adsbannerDesktop.jpg" class="visible-md visible-lg"/>
 						<img src="images/ads/adsbannerMobile.jpg" class="visible-xs visible-sm"/>
 					</a>
 					<div id="closeBanner"><span id="closenow">&times;</span></div>
-				</div>
+				</div> -->
 			</div>
 	        <!-- Indicators -->
 	        <ol class="carousel-indicators">
